@@ -1,0 +1,1631 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\param\\categoriecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\param\\categoriecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\pqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\pqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\procdocuments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\procdocuments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\procesobjectifscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\procesobjectifscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\procdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\procdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\procobjectifs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\procobjectifs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\processus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\processus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\procesobjectifs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\procesobjectifs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\param\\sites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\param\\sites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\param\\smq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\param\\smq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\processuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\processuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\processusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\processusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iprocessusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iprocessusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\indicateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\indicateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\procesdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\procesdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\pqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\pqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\mqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\mqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\param\\categorieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\param\\categorieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\imqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\imqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\gestions\\rolesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\gestions\\rolesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\irolesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\irolesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\data\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:data\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\gestions\\permissionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\gestions\\permissionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\proceduresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\proceduresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\resultatsindicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\resultatsindicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\procesobjectifsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\procesobjectifsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\procesdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\procesdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\procesdocumentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\procesdocumentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\procesdocuments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\procesdocuments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\permissionrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\permissionrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\procdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\procdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\procedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\procedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\indicateurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\indicateurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\resultatsindicateurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\resultatsindicateurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\procobjectifsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\procobjectifsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\utility\\apiresponse\\getdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:utility\\apiresponse\\getdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\organismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\organismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\resultatsindicateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\resultatsindicateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\organisme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\organisme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\mq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\mq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\pq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\pq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\proceduredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\proceduredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\param\\sitescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\param\\sitescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\param\\parametragescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\param\\parametragescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\param\\organismecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\param\\organismecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\processusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\processusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\procesobjectifsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\procesobjectifsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\pqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\pqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\procdocumentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\procdocumentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza\\AppData\\Local\\Temp\\Rar$DIa20424.10947\\checklist.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iprocesdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iprocesdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iprocdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iprocdocumentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\mqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\mqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\param\\smqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\param\\smqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\param\\smqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\param\\smqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\param\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\param\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\isiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\isiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\param\\parametrageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\param\\parametrageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\icategorieservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\icategorieservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\ismqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\ismqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\param\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\param\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\indicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\indicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\param\\typeorganisme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\param\\typeorganisme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\services\\param\\typeorganismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:services\\param\\typeorganismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iorganismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iorganismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\controllers\\param\\typeorganismecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:controllers\\param\\typeorganismecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\entities\\param\\parametrage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\entities\\param\\parametrage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iparametrageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iparametrageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\itypeorganismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\itypeorganismeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\ipermissionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\ipermissionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\fileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\fileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\utility\\auth\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:utility\\auth\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\utility\\auth\\iuserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:utility\\auth\\iuserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\mqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\mqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\ipqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\ipqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iresultatsindicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iresultatsindicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\utility\\other\\customhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:utility\\other\\customhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\resultatsindicateursdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\resultatsindicateursdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\interfaces\\iindicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:interfaces\\iindicateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\indicateursdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\indicateursdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\treeprocessusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\treeprocessusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|c:\\users\\admin\\documents\\stage pfe\\itkan_api-second\\models\\dtos\\procobjectifsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8DCBD-1729-49CE-8E8B-1EF9607D67A9}|ITKANSys_api.csproj|solutionrelative:models\\dtos\\procobjectifsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SIliad\\ITKAN\\back\\ITKANSys_api\\Migrations\\20231030094234_MigrationCreerNewTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SIliad\\ITKAN\\back\\ITKANSys_api\\Migrations\\20231128115237_MigrationTableMQ.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProcesObjectifsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcesObjectifsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProcesObjectifsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcesObjectifsController.cs",
+              "RelativeToolTip": "Controllers\\ProcesObjectifsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProcDocuments.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcDocuments.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ProcDocuments.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcDocuments.cs",
+              "RelativeToolTip": "Models\\Entities\\ProcDocuments.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Permission.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Permission.cs",
+              "RelativeToolTip": "Models\\Entities\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PQService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\PQService.cs",
+              "RelativeDocumentMoniker": "Services\\PQService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\PQService.cs",
+              "RelativeToolTip": "Services\\PQService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T15:22:52.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategorieController .cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\CategorieController .cs",
+              "RelativeDocumentMoniker": "Controllers\\Param\\CategorieController .cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\CategorieController .cs",
+              "RelativeToolTip": "Controllers\\Param\\CategorieController .cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAMwG8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProcDocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcDocumentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProcDocumentsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcDocumentsController.cs",
+              "RelativeToolTip": "Controllers\\ProcDocumentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMBAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProcObjectifs.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcObjectifs.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ProcObjectifs.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcObjectifs.cs",
+              "RelativeToolTip": "Models\\Entities\\ProcObjectifs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Processus.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Processus.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Processus.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Processus.cs",
+              "RelativeToolTip": "Models\\Entities\\Processus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProcesObjectifs.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcesObjectifs.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ProcesObjectifs.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcesObjectifs.cs",
+              "RelativeToolTip": "Models\\Entities\\ProcesObjectifs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sites.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\Sites.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Param\\Sites.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\Sites.cs",
+              "RelativeToolTip": "Models\\Entities\\Param\\Sites.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SMQ.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\SMQ.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Param\\SMQ.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\SMQ.cs",
+              "RelativeToolTip": "Models\\Entities\\Param\\SMQ.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProcessusController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcessusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProcessusController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcessusController.cs",
+              "RelativeToolTip": "Controllers\\ProcessusController.cs",
+              "ViewState": "AQIAABMAAACgz8zMzMw/wCIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProcessusService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcessusService.cs",
+              "RelativeDocumentMoniker": "Services\\ProcessusService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcessusService.cs",
+              "RelativeToolTip": "Services\\ProcessusService.cs",
+              "ViewState": "AQIAANsAAAAAl5mZmZkwwCAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProcessusService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IProcessusService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProcessusService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IProcessusService.cs",
+              "RelativeToolTip": "Interfaces\\IProcessusService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "Controllers\\PermissionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProcesDocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcesDocumentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProcesDocumentsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProcesDocumentsController.cs",
+              "RelativeToolTip": "Controllers\\ProcesDocumentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProceduresController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProceduresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProceduresController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ProceduresController.cs",
+              "RelativeToolTip": "Controllers\\ProceduresController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PQController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\PQController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PQController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\PQController.cs",
+              "RelativeToolTip": "Controllers\\PQController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwCoAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IndicateurController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\IndicateurController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IndicateurController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\IndicateurController.cs",
+              "RelativeToolTip": "Controllers\\IndicateurController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MQController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\MQController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MQController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\MQController.cs",
+              "RelativeToolTip": "Controllers\\MQController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAkwGcAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategorieService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\CategorieService.cs",
+              "RelativeDocumentMoniker": "Services\\Param\\CategorieService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\CategorieService.cs",
+              "RelativeToolTip": "Services\\Param\\CategorieService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IMQService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IMQService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMQService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IMQService.cs",
+              "RelativeToolTip": "Interfaces\\IMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Enum.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\Enum.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Enum.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\Enum.cs",
+              "RelativeToolTip": "Interfaces\\Enum.cs",
+              "ViewState": "AQIAABUAAADAmZmZmZkVwCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:56:48.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:56:29.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PermissionsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Gestions\\PermissionsService.cs",
+              "RelativeDocumentMoniker": "Services\\Gestions\\PermissionsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Gestions\\PermissionsService.cs",
+              "RelativeToolTip": "Services\\Gestions\\PermissionsService.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAAAOAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IRolesServices.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IRolesServices.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRolesServices.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IRolesServices.cs",
+              "RelativeToolTip": "Interfaces\\IRolesServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T15:22:52.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:51.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Role.cs",
+              "RelativeToolTip": "Models\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RolesServices.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Gestions\\RolesServices.cs",
+              "RelativeDocumentMoniker": "Services\\Gestions\\RolesServices.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Gestions\\RolesServices.cs",
+              "RelativeToolTip": "Services\\Gestions\\RolesServices.cs",
+              "ViewState": "AQIAABMBAAAAAAAAAAAUwDkBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Data\\DbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\DbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Data\\DbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\DbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProceduresService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProceduresService.cs",
+              "RelativeDocumentMoniker": "Services\\ProceduresService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProceduresService.cs",
+              "RelativeToolTip": "Services\\ProceduresService.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAD4v2AAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ResultatsIndicateurService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ResultatsIndicateurService.cs",
+              "RelativeDocumentMoniker": "Services\\ResultatsIndicateurService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ResultatsIndicateurService.cs",
+              "RelativeToolTip": "Services\\ResultatsIndicateurService.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAHMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProcesObjectifsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcesObjectifsService.cs",
+              "RelativeDocumentMoniker": "Services\\ProcesObjectifsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcesObjectifsService.cs",
+              "RelativeToolTip": "Services\\ProcesObjectifsService.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAIwKIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProcesDocuments.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcesDocuments.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ProcesDocuments.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ProcesDocuments.cs",
+              "RelativeToolTip": "Models\\Entities\\ProcesDocuments.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProcesDocumentsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcesDocumentsService.cs",
+              "RelativeDocumentMoniker": "Services\\ProcesDocumentsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcesDocumentsService.cs",
+              "RelativeToolTip": "Services\\ProcesDocumentsService.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAIwLEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProcesDocumentsDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcesDocumentsDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ProcesDocumentsDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcesDocumentsDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ProcesDocumentsDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PermissionRole.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\PermissionRole.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\PermissionRole.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\PermissionRole.cs",
+              "RelativeToolTip": "Models\\Entities\\PermissionRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProcDocumentsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcDocumentsService.cs",
+              "RelativeDocumentMoniker": "Services\\ProcDocumentsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcDocumentsService.cs",
+              "RelativeToolTip": "Services\\ProcDocumentsService.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAAAAJ4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Procedures.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Procedures.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Procedures.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Procedures.cs",
+              "RelativeToolTip": "Models\\Entities\\Procedures.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ResultatsIndicateurs.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ResultatsIndicateurs.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ResultatsIndicateurs.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\ResultatsIndicateurs.cs",
+              "RelativeToolTip": "Models\\Entities\\ResultatsIndicateurs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Indicateurs.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Indicateurs.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Indicateurs.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Indicateurs.cs",
+              "RelativeToolTip": "Models\\Entities\\Indicateurs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:52.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\ApiResponse\\GetDataResult.cs",
+              "RelativeDocumentMoniker": "Utility\\ApiResponse\\GetDataResult.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\ApiResponse\\GetDataResult.cs",
+              "RelativeToolTip": "Utility\\ApiResponse\\GetDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProcObjectifsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcObjectifsService.cs",
+              "RelativeDocumentMoniker": "Services\\ProcObjectifsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\ProcObjectifsService.cs",
+              "RelativeToolTip": "Services\\ProcObjectifsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "OrganismeService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\OrganismeService.cs",
+              "RelativeDocumentMoniker": "Services\\OrganismeService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\OrganismeService.cs",
+              "RelativeToolTip": "Services\\OrganismeService.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAUwJQBAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ResultatsIndicateurController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ResultatsIndicateurController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResultatsIndicateurController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\ResultatsIndicateurController.cs",
+              "RelativeToolTip": "Controllers\\ResultatsIndicateurController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAD4vyEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "treeProcessusDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\treeProcessusDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\treeProcessusDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\treeProcessusDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\treeProcessusDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Organisme.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Organisme.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Organisme.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Organisme.cs",
+              "RelativeToolTip": "Models\\Entities\\Organisme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MQ.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\MQ.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\MQ.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\MQ.cs",
+              "RelativeToolTip": "Models\\Entities\\MQ.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PQ.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\PQ.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\PQ.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\PQ.cs",
+              "RelativeToolTip": "Models\\Entities\\PQ.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProcedureDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcedureDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ProcedureDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcedureDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ProcedureDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SitesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\SitesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Param\\SitesController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\SitesController.cs",
+              "RelativeToolTip": "Controllers\\Param\\SitesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ParametragesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\ParametragesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Param\\ParametragesController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\ParametragesController.cs",
+              "RelativeToolTip": "Controllers\\Param\\ParametragesController.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAMwNIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "OrganismeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\OrganismeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Param\\OrganismeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\OrganismeController.cs",
+              "RelativeToolTip": "Controllers\\Param\\OrganismeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAN8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProcessusDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcessusDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ProcessusDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcessusDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ProcessusDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProcesObjectifsDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcesObjectifsDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ProcesObjectifsDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcesObjectifsDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ProcesObjectifsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PQDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\PQDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\PQDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\PQDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\PQDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ProcObjectifsDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcObjectifsDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ProcObjectifsDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcObjectifsDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ProcObjectifsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProcDocumentsDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcDocumentsDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ProcDocumentsDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ProcDocumentsDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ProcDocumentsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "checklist.component.scss",
+              "DocumentMoniker": "C:\\Users\\Hamza\\AppData\\Local\\Temp\\Rar$DIa20424.10947\\checklist.component.scss",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Hamza\\AppData\\Local\\Temp\\Rar$DIa20424.10947\\checklist.component.scss",
+              "ToolTip": "C:\\Users\\Hamza\\AppData\\Local\\Temp\\Rar$DIa20424.10947\\checklist.component.scss",
+              "RelativeToolTip": "..\\..\\..\\..\\Hamza\\AppData\\Local\\Temp\\Rar$DIa20424.10947\\checklist.component.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2023-12-15T16:10:35.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IProcesDocumentsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IProcesDocumentsService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProcesDocumentsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IProcesDocumentsService.cs",
+              "RelativeToolTip": "Interfaces\\IProcesDocumentsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IProcDocumentsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IProcDocumentsService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProcDocumentsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IProcDocumentsService.cs",
+              "RelativeToolTip": "Interfaces\\IProcDocumentsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MQService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\MQService.cs",
+              "RelativeDocumentMoniker": "Services\\MQService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\MQService.cs",
+              "RelativeToolTip": "Services\\MQService.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAiwE8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SMQController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\SMQController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Param\\SMQController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\SMQController.cs",
+              "RelativeToolTip": "Controllers\\Param\\SMQController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAMwEoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "SMQService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\SMQService.cs",
+              "RelativeDocumentMoniker": "Services\\Param\\SMQService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\SMQService.cs",
+              "RelativeToolTip": "Services\\Param\\SMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "SiteService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\SiteService.cs",
+              "RelativeDocumentMoniker": "Services\\Param\\SiteService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\SiteService.cs",
+              "RelativeToolTip": "Services\\Param\\SiteService.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAiwLMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ISiteService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ISiteService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISiteService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ISiteService.cs",
+              "RelativeToolTip": "Interfaces\\ISiteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ParametrageService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\ParametrageService.cs",
+              "RelativeDocumentMoniker": "Services\\Param\\ParametrageService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\ParametrageService.cs",
+              "RelativeToolTip": "Services\\Param\\ParametrageService.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAMwLgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ICategorieService .cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ICategorieService .cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICategorieService .cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ICategorieService .cs",
+              "RelativeToolTip": "Interfaces\\ICategorieService .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ISMQService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ISMQService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISMQService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ISMQService.cs",
+              "RelativeToolTip": "Interfaces\\ISMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\Categories.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Param\\Categories.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\Categories.cs",
+              "RelativeToolTip": "Models\\Entities\\Param\\Categories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IndicateurService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\IndicateurService.cs",
+              "RelativeDocumentMoniker": "Services\\IndicateurService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\IndicateurService.cs",
+              "RelativeToolTip": "Services\\IndicateurService.cs",
+              "ViewState": "AQIAANsAAAAAAAAAAAAAAAUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "TypeOrganismeService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\TypeOrganismeService.cs",
+              "RelativeDocumentMoniker": "Services\\Param\\TypeOrganismeService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Services\\Param\\TypeOrganismeService.cs",
+              "RelativeToolTip": "Services\\Param\\TypeOrganismeService.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "TypeOrganisme.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\TypeOrganisme.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Param\\TypeOrganisme.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\TypeOrganisme.cs",
+              "RelativeToolTip": "Models\\Entities\\Param\\TypeOrganisme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "TypeOrganismeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\TypeOrganismeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Param\\TypeOrganismeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Controllers\\Param\\TypeOrganismeController.cs",
+              "RelativeToolTip": "Controllers\\Param\\TypeOrganismeController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwDYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IOrganismeService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IOrganismeService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IOrganismeService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IOrganismeService.cs",
+              "RelativeToolTip": "Interfaces\\IOrganismeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Parametrage.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\Parametrage.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Param\\Parametrage.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Entities\\Param\\Parametrage.cs",
+              "RelativeToolTip": "Models\\Entities\\Param\\Parametrage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IParametrageService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IParametrageService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IParametrageService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IParametrageService.cs",
+              "RelativeToolTip": "Interfaces\\IParametrageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ITypeOrganismeService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ITypeOrganismeService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITypeOrganismeService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\ITypeOrganismeService.cs",
+              "RelativeToolTip": "Interfaces\\ITypeOrganismeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "IPermissionsService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IPermissionsService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPermissionsService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IPermissionsService.cs",
+              "RelativeToolTip": "Interfaces\\IPermissionsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "FileInfo.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\FileInfo.cs",
+              "RelativeDocumentMoniker": "Interfaces\\FileInfo.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\FileInfo.cs",
+              "RelativeToolTip": "Interfaces\\FileInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20231030094234_MigrationCreerNewTables.cs",
+              "DocumentMoniker": "D:\\SIliad\\ITKAN\\back\\ITKANSys_api\\Migrations\\20231030094234_MigrationCreerNewTables.cs",
+              "ToolTip": "D:\\SIliad\\ITKAN\\back\\ITKANSys_api\\Migrations\\20231030094234_MigrationCreerNewTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IUserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\Auth\\IUserHelper.cs",
+              "RelativeDocumentMoniker": "Utility\\Auth\\IUserHelper.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\Auth\\IUserHelper.cs",
+              "RelativeToolTip": "Utility\\Auth\\IUserHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "UserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\Auth\\UserHelper.cs",
+              "RelativeDocumentMoniker": "Utility\\Auth\\UserHelper.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\Auth\\UserHelper.cs",
+              "RelativeToolTip": "Utility\\Auth\\UserHelper.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "MQDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\MQDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\MQDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\MQDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\MQDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IPQService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IPQService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPQService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IPQService.cs",
+              "RelativeToolTip": "Interfaces\\IPQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20231128115237_MigrationTableMQ.cs",
+              "DocumentMoniker": "D:\\SIliad\\ITKAN\\back\\ITKANSys_api\\Migrations\\20231128115237_MigrationTableMQ.cs",
+              "ToolTip": "D:\\SIliad\\ITKAN\\back\\ITKANSys_api\\Migrations\\20231128115237_MigrationTableMQ.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IResultatsIndicateurService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IResultatsIndicateurService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IResultatsIndicateurService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IResultatsIndicateurService.cs",
+              "RelativeToolTip": "Interfaces\\IResultatsIndicateurService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "CustomHelper.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\Other\\CustomHelper.cs",
+              "RelativeDocumentMoniker": "Utility\\Other\\CustomHelper.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Utility\\Other\\CustomHelper.cs",
+              "RelativeToolTip": "Utility\\Other\\CustomHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "ResultatsIndicateursDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ResultatsIndicateursDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ResultatsIndicateursDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\ResultatsIndicateursDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ResultatsIndicateursDto.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "IndicateursDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\IndicateursDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\IndicateursDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\IndicateursDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\IndicateursDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "IIndicateurService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IIndicateurService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IIndicateurService.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Interfaces\\IIndicateurService.cs",
+              "RelativeToolTip": "Interfaces\\IIndicateurService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\Models\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:22:53.959Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

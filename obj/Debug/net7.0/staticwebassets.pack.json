@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371604893405564_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371604893405564_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371605813920744_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371605813920744_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371613309016897_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371613309016897_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371623339499306_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371623339499306_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371623565066550_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371623565066550_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371628790499607_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371628790499607_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371631728354957_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371631728354957_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371632034321251_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "PackagePath": "staticwebassets\\images\\638371632034321251_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638372985199132212_Siliad-New-Slogan.png",
+      "PackagePath": "staticwebassets\\images\\638372985199132212_Siliad-New-Slogan.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638372985990508921_Siliad-White-New-Slogan-1536x392.png",
+      "PackagePath": "staticwebassets\\images\\638372985990508921_Siliad-White-New-Slogan-1536x392.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638372986069093292_Siliad-New-Slogan.png",
+      "PackagePath": "staticwebassets\\images\\638372986069093292_Siliad-New-Slogan.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ITKANSys_api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ITKANSys_api.props",
+      "PackagePath": "build\\ITKANSys_api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ITKANSys_api.props",
+      "PackagePath": "buildMultiTargeting\\ITKANSys_api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ITKANSys_api.props",
+      "PackagePath": "buildTransitive\\ITKANSys_api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
