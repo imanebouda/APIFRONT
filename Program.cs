@@ -1,3 +1,4 @@
+global using ITKANSys_api.Models.Entities;
 using ITKANSys_api.Core.Interfaces;
 using ITKANSys_api.Data.Services;
 using ITKANSys_api.Interfaces;
@@ -90,7 +91,8 @@ builder.Services.AddScoped<IParametrageService, ParametrageService>();
 builder.Services.AddScoped<ICategorieService, CategorieService>();
 builder.Services.AddScoped<ISiteService, SiteService>();
 builder.Services.AddScoped<ISMQService, SMQService>();
-
+builder.Services.AddScoped<IAuditService,AuditService >();
+builder.Services.AddScoped<IConstatService, ConstatService>();
 
 
 // pipeline

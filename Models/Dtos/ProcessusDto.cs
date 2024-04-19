@@ -3,6 +3,7 @@ using ITKANSys_api.Models.Entities.Param;
 using ITKANSys_api.Models.Dtos;
 using System.ComponentModel.DataAnnotations;
 using static ITKANSys_api.Data.Services.ProcessusService;
+using ITKANSys_api.Models.Entities;
 
 namespace ITKANSys_api.Data.Dtos
 {
@@ -35,5 +36,6 @@ namespace ITKANSys_api.Data.Dtos
         public User PiloteUser { get; set; }
 
         public User CoPiloteUser { get; set; }
+        public Audit Audit { get; set; }
     }
 }

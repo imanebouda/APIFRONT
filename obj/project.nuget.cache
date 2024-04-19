@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fHvQ8n0W8KWFdfYzFaYDtZKkyJDKXy3wFrYjFdX4YXUPdNPotDKXB9fQLPI5M3y4RYjaOw37p3xwPkXR0ycOJA==",
+  "dgSpecHash": "a6+7m92nogt5BxiDnz9cwZYjyWCttSAR+z6sOYmHmF7RSfxodrKuew7F2FjJffEASMQpyjjHmx86IVFjGjrvqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\ITKANSys_api.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\Stage Pfe\\test\\ITKAN_API-second\\ITKANSys_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
