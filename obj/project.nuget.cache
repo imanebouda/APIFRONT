@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a6+7m92nogt5BxiDnz9cwZYjyWCttSAR+z6sOYmHmF7RSfxodrKuew7F2FjJffEASMQpyjjHmx86IVFjGjrvqQ==",
+  "dgSpecHash": "7zu7J5/9VNEwinrgYK8fQo4CgVsBBNs+qriWko+eGCOselN/G5Bl0qHVA/1fI/vw1smE/4826OtjiMxAntO4VQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\Stage Pfe\\test\\ITKAN_API-second\\ITKANSys_api.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\ITKANSys_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\firebaseadmin\\2.4.0\\firebaseadmin.2.4.0.nupkg.sha512",

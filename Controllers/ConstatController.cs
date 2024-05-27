@@ -20,7 +20,7 @@ namespace ITKANSys_api.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Constat>>> GetAllConstat()
         {
-             return  _constatService.GetAllConstat();
+             return await _constatService.GetAllConstat();
            
 
         }
@@ -29,7 +29,7 @@ namespace ITKANSys_api.Controllers
 
         public async Task<ActionResult<Constat>> GetConstat(int id)
         {
-            var result = _constatService.GetConstat(id);
+            var result = await _constatService.GetConstat(id);
             if (result is null)
                 return NotFound("Constat n ' est existante");
 
@@ -42,7 +42,7 @@ namespace ITKANSys_api.Controllers
         public async Task<ActionResult<List<Constat>>> AddConstat(Constat constat)
         {
 
-            var result = _constatService.AddConstat(constat);
+            var result = await _constatService.AddConstat(constat);
             if (result is null)
                 return NotFound("constat n ' est existante");
 
@@ -55,7 +55,7 @@ namespace ITKANSys_api.Controllers
 
         public async Task<ActionResult<List<Constat>>> UpdateConstat(int id, Constat request)
         {
-            var result = _constatService.UpdateConstat(id,request);
+            var result = await _constatService.UpdateConstat(id,request);
             if (result is null)
                 return NotFound("constat n ' est existante");
 
@@ -68,7 +68,7 @@ namespace ITKANSys_api.Controllers
 
         public async Task<ActionResult<List<Constat>>> DeleteConstat(int id)
         {
-            var result = _constatService.DeleteConstat(id);
+            var result = await _constatService.DeleteConstat(id);
             if (result is null)
                 return NotFound("Constat n ' est existante");
 

@@ -303,5 +303,31 @@ namespace ITKANSys_api.Controllers
             }
         }
 
+        [HttpGet("{auditId}/processus")]
+        public IActionResult GetProcessusForAudit(int auditId)
+        {
+            var processus = _processusService.GetProcessusByAuditId(auditId);
+
+            if (processus == null || processus.Count == 0)
+            {
+                return NotFound("Aucun processus trouvé pour cet audit.");
+            }
+
+            return Ok(processus);
+        }
+        /*
+        [HttpGet("ByAuditType/{auditType}")]
+        public IActionResult GetProcessusByAuditType(string auditType)
+        {
+            var processusList = _processusService.GetProcessusByAuditType(auditType);
+
+            if (processusList == null || processusList.Count == 0)
+            {
+                return NotFound("Aucun processus trouvé pour ce type d'audit.");
+            }
+
+            return Ok(processusList);
+        }*/
+
     }
 }

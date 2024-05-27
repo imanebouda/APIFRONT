@@ -13,6 +13,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using AutoMapper;
+using ITKANSys_api.Utility.Config;
+using ITKANSys_api.Utility.ApiResponse;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -93,8 +95,13 @@ builder.Services.AddScoped<ISiteService, SiteService>();
 builder.Services.AddScoped<ISMQService, SMQService>();
 builder.Services.AddScoped<IAuditService,AuditService >();
 builder.Services.AddScoped<IConstatService, ConstatService>();
+builder.Services.AddScoped<formatObject>();
+builder.Services.AddScoped<IChecklistAuditService, CheckListAuditService>();
+builder.Services.AddScoped<ITypeCheckListAuditService, TypeCheckListAuditService>();
 
+var mappingConfig = new MapperConfiguration(mc => { mc.AddProfile(new MapperConfig()); });
 
+builder.Services.AddAutoMapper(typeof(MapperConfig));
 // pipeline
 
 var app = builder.Build();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wasYAF0uYUtEaoGOq5QzTgqXjq2z2r//ORPSU68+jgQ=",
+  "Hash": "otYk98CcFXqP64W3FIOfa7J1ff+/HVVhJhMsKL63scc=",
   "Source": "ITKANSys_api",
   "BasePath": "_content/ITKANSys_api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ITKANSys_api\\wwwroot",
       "Source": "ITKANSys_api",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371604893405564_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371604893405564_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371604893405564_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371604893405564_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371605813920744_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371605813920744_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371605813920744_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371605813920744_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371613309016897_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371613309016897_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371613309016897_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371613309016897_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371623339499306_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371623339499306_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371623339499306_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371623339499306_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371623565066550_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371623565066550_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371623565066550_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371623565066550_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371628790499607_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371628790499607_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371628790499607_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371628790499607_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371631728354957_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371631728354957_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371631728354957_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371631728354957_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638371632034321251_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638371632034321251_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638371632034321251_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638371632034321251_vecteezy_pdf-icon-on-white-background-file-pdf-icon-sign-pdf-format_10750673.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638372985199132212_Siliad-New-Slogan.png",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638372985199132212_Siliad-New-Slogan.png",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638372985199132212_Siliad-New-Slogan.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638372985199132212_Siliad-New-Slogan.png"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638372985990508921_Siliad-White-New-Slogan-1536x392.png",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638372985990508921_Siliad-White-New-Slogan-1536x392.png",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638372985990508921_Siliad-White-New-Slogan-1536x392.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\638372985990508921_Siliad-White-New-Slogan-1536x392.png"
     },
     {
-      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\images\\638372986069093292_Siliad-New-Slogan.png",
+      "Identity": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\images\\638372986069093292_Siliad-New-Slogan.png",
       "SourceId": "ITKANSys_api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\ITKAN_API-second\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\wwwroot\\",
       "BasePath": "_content/ITKANSys_api",
       "RelativePath": "images/638372986069093292_Siliad-New-Slogan.png",
       "AssetKind": "All",

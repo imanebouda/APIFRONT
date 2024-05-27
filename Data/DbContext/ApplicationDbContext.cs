@@ -26,6 +26,12 @@ public class ApplicationDbContext : DbContext
     public DbSet<TypeOrganisme> TypeOrganisme { get; set; }
     public DbSet<Parametrage> Parametrages { get; set; }
     public DbSet<Organisme> Organismes { get; set; }
+    public DbSet<Audit> Audit { get; set; }
+    public DbSet<Constat> Constat { get; set; }
+    public DbSet<UserChoice> UserChoices { get; set; }
+    public DbSet<CheckListAudit> CheckListAudits { get; set; }
+    public DbSet<SiteAudit> SiteAudits { get; set; }
+    public DbSet<TypeCheckListAudit> TypeCheckList { get; set; }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -172,6 +178,31 @@ public class ApplicationDbContext : DbContext
         .HasForeignKey(u => u.id_type_organisme)
         .OnDelete(DeleteBehavior.ClientSetNull) // Spécifiez ON DELETE NO ACTION ou une autre option selon vos besoins
         .HasConstraintName("FK_Organismes_TypeOrganisme");
+
+        //
+
+        modelBuilder.Entity<Audit>()
+       .HasMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
+       .WithOne(c => c.Audit) // Un Constat appartient à un Audit
+       .HasForeignKey(c => c.AuditID) // Clé étrangère dans la classe Constat
+       .OnDelete(DeleteBehavior.Cascade); // Cascade Delete pour supprimer les Constats associés lorsqu'un Audit est supprimé
+
+        modelBuilder.Entity<Constat>()
+            .HasOne(c => c.Audit) // Un Constat appartient à un Audit
+            .WithMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
+            .HasForeignKey(c => c.AuditID); // Clé étrangère dans la classe Constat
+
+
+
+        modelBuilder.Entity<CheckListAudit>()
+             .HasOne(c => c.TypeCheckListAudit)
+             .WithMany()
+             .HasForeignKey(c => c.typechecklist_id)
+             .HasConstraintName("FK_CheckListAudits_TypeCheckList");
+
+
+
+        base.OnModelCreating(modelBuilder);
 
     }
 }

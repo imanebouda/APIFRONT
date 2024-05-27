@@ -20,5 +20,6 @@ namespace ITKANSys_api.Interfaces
         Task<DataSourceResult> UpdateProcessus(object processus);
         Task<DataSourceResult> GetAllSMQ();
         Task<DataSourceResult> GetAllCategories();
+        public List<Processus> GetProcessusByAuditId(int auditId);
     }
 }

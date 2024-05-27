@@ -712,6 +712,44 @@ namespace ITKANSys_api.Data.Services
             // On retourne le résultat
             return dataResult;
         }
+        public List<Processus> GetProcessusByAuditId(int auditId)
+        {
+            // Récupérer l'audit sélectionné par son ID
+            var audit = _ctx.Audit.FirstOrDefault(a => a.ID == auditId);
+
+            if (audit == null)
+            {
+                return new List<Processus>(); // Ou lancez une exception si l'audit n'est pas trouvé
+            }
+
+            // Obtenir le deuxième nom du processus
+            string[] mots = audit.NomAudit.Split(' ');
+            string deuxiemeNomProcessus = mots.Length > 1 ? mots[1] : "";
+
+            // Comparer le type d'audit avec le deuxième nom du processus
+            var processus = _ctx.Processus
+                .Where(p => p.Audit.typeAudit == audit.typeAudit && p.Libelle.Contains(deuxiemeNomProcessus))
+                .ToList();
+
+            return processus;
+        }
+
+        /* public List<Processus> GetProcessusByAuditType(string auditType)
+         {
+             // Recherche de l'audit par type
+             var audit = _ctx.Audit.FirstOrDefault(a => a.typeAudit == auditType);
+
+             if (audit == null)
+             {
+                 // Gérer le cas où aucun audit avec ce type n'est trouvé
+                 return new List<Processus>(); // Ou null ou une autre logique selon votre besoin
+             }
+
+             // Récupération des processus liés à cet audit
+             var processusList = _ctx.Processus.Where(p => p.AuditID == audit.ID).ToList();
+
+             return processusList;
+         }*/
 
 
 
