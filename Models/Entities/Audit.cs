@@ -7,10 +7,12 @@ namespace ITKANSys_api.Models.Entities
     {
         public int ID { get; set; }
         public string NomAudit { get; set; }
+ 
         public DateTime DateAudit { get; set; }
         public string status { get; set; }
         public string  description { get; set; }
         public string typeAudit { get; set; }
+       
 
         // Association One-to-Many avec la classe Constat
         [InverseProperty("Audit")]
@@ -19,6 +21,8 @@ namespace ITKANSys_api.Models.Entities
         // Association One-to-Many avec la classe Processus
         [InverseProperty("Audit")]
         public ICollection<Processus> Processus { get; set; }
+
+
 
     }
 }

@@ -17,5 +17,7 @@ namespace ITKANSys_api.Interfaces
         //Task<DataSourceResult> DeleteAudit(int id);
         //Task<DataSourceResult> DeleteAudit(object audit);
         Task<DataSourceResult> DeleteAudit(string jsonString);
+        Task<List<Audit>> GetAuditsByDate(DateTime date);
+        Task<List<Audit>> GetAuditsByType(string type);
     }
 }

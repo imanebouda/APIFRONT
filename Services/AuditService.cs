@@ -310,6 +310,7 @@ namespace ITKANSys_api.Services
         }*/
 
         public async Task<List<Audit>> GetAllAudit()
+        
         {
 
 
@@ -403,6 +404,40 @@ namespace ITKANSys_api.Services
 
 
         }
-       
+
+       public async Task<List<Audit>> GetAuditsByDate(DateTime date)
+        {
+            try
+            {
+                var audits = await _context.Audit
+                    .Where(a => a.DateAudit.Date == date.Date)
+                    .ToListAsync();
+                return audits;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Une exception s'est produite : {ex.Message}");
+                throw;
+            }
+        }
+        public async Task<List<Audit>> GetAuditsByType(string type)
+        {
+            try
+            {
+                var audits = await _context.Audit
+                    .Where(a => a.typeAudit == type)
+                    .ToListAsync();
+                return audits;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Une exception s'est produite : {ex.Message}");
+                throw;
+            }
+        }
     }
+
+
+
+
 }

@@ -29,6 +29,23 @@ namespace ITKANSys_api.Controllers
 
 
 
+        [HttpPost("userchoices")]
+        public async Task<IActionResult> SaveUserChoice(UserChoice model)
+        {
+            try
+            {
+                // Code pour enregistrer le choix de l'utilisateur dans la base de données
+                // Par exemple, utilisez Entity Framework pour ajouter une nouvelle entrée dans la table UserChoices
+                _context.UserChoices.Add(model);
+                await _context.SaveChangesAsync();
+
+                return Ok("Choix enregistré avec succès.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Une erreur est survenue lors de l'enregistrement du choix : {ex.Message}");
+            }
+        }
 
         [HttpPost("selected")]
         public IActionResult SaveSelectedChoice(int checklistId, UserChoice userChoice)

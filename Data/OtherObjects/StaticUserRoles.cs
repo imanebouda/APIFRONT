@@ -7,6 +7,8 @@
         public const int USER =  3;
         public const int Pilote = 5;
         public const int CoPilote = 6;
+        public const int Auditeur = 10;
+
 
     }
 }

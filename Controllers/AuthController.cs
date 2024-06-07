@@ -73,6 +73,29 @@ namespace ITKANSys_api.Controllers
                 return StatusCode(500, "Une erreur s'est produite lors de la récupération des utilisateurs.");
             }
         }
+        [HttpGet("GetAllAuditeur")]
+        public async Task<IActionResult> GetAllAuditeur()
+        {
+            try
+            {
+                var userDto = await _authService.GetAllAuditeur();
+
+                if (userDto.IsSucceed)
+                {
+                    return Ok(userDto.Data);
+                }
+                else
+                {
+                    return BadRequest(userDto.Message);
+                }
+            }
+            catch (Exception)
+            {
+                // Gérez l'exception ici, par exemple, en journalisant l'erreur.
+                return StatusCode(500, "Une erreur s'est produite lors de la récupération des auditeurs.");
+            }
+        }
+
         [HttpGet("GetAllCoPilote")]
 
         public async Task<IActionResult> GetAllCoPilote()

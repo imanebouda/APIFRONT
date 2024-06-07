@@ -84,6 +84,58 @@
   },
   {
     "ContainingType": "ITKANSys_api.Controllers.AuditController",
+    "Method": "GetAuditsByDate",
+    "RelativePath": "api/Audit/byDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ITKANSys_api.Models.Entities.Audit, ITKANSys_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.AuditController",
+    "Method": "GetAuditsByType",
+    "RelativePath": "api/Audit/byType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ITKANSys_api.Models.Entities.Audit, ITKANSys_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.AuditController",
     "Method": "DeleteAudit",
     "RelativePath": "api/Audit/DeleteAudit",
     "HttpMethod": "POST",
@@ -118,6 +170,16 @@
     "ContainingType": "ITKANSys_api.Controllers.AuthController",
     "Method": "GetAllUsers",
     "RelativePath": "api/Auth/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.AuthController",
+    "Method": "GetAllAuditeur",
+    "RelativePath": "api/Auth/GetAllAuditeur",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -3197,6 +3259,22 @@
       },
       {
         "Name": "userChoice",
+        "Type": "ITKANSys_api.Models.UserChoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.DropdownController",
+    "Method": "SaveUserChoice",
+    "RelativePath": "Dropdown/userchoices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
         "Type": "ITKANSys_api.Models.UserChoice",
         "IsRequired": true
       }

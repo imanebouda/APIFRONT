@@ -22,6 +22,7 @@ namespace ITKANSys_api.Core.Interfaces
         Task<UserDto> GetAllByRoleAsync();
         Task<UserDto> GetAllCoPiloteAsync();
         Task<UserDto> GetAllPiloteAsync();
+        Task<UserDto> GetAllAuditeur();
 
 
     }

@@ -103,6 +103,7 @@ namespace ITKANSys_api.Services
 
             return dataResult;
         }
+       
 
         public async Task<UserDto> GetAllCoPiloteAsync()
         {
@@ -1179,7 +1180,39 @@ namespace ITKANSys_api.Services
             return result;
         }
 
+        public async Task<UserDto> GetAllAuditeur()
+        {
+            var dataResult = new UserDto();
 
+            try
+            {
+                var users = await _context.Users
+                    .Where(p => p.deleted_at == null && p.IdRole == StaticUserRoles.Auditeur)
+                    .AsNoTracking()
+                    .Select(p => new UserInfoDto // Utilisez UserInfoDto ici
+                    {
+                        Id = p.Id,
+                        NomCompletUtilisateur = p.NomCompletUtilisateur,
+                        Email = p.Email,
+                        Username = p.Username,
+                        RolesName = p.UserRole.Name,
+                        IdRole = p.IdRole
+                    })
+                    .OrderBy(x => x.NomCompletUtilisateur)
+                    .ToListAsync();
 
+                dataResult.IsSucceed = true;
+                dataResult.Message = "Opération réussie";
+                dataResult.Data = users;
+            }
+            catch (Exception ex)
+            {
+                dataResult.IsSucceed = false;
+                dataResult.Message = "Erreur lors de la récupération des auditeurs";
+                // Ajoutez des informations de journalisation ici si nécessaire
+            }
+
+            return dataResult;
+        }
     }
 }
