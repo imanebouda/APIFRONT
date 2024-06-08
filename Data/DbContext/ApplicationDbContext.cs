@@ -32,8 +32,12 @@ public class ApplicationDbContext : DbContext
     public DbSet<CheckListAudit> CheckListAudits { get; set; }
     public DbSet<SiteAudit> SiteAudits { get; set; }
     public DbSet<TypeCheckListAudit> TypeCheckList { get; set; }
+<<<<<<< HEAD
     public DbSet<ProgrammeAudit> ProgrammeAudit { get; set; }
 
+=======
+    public DbSet<TypeAudit> typeAudit { get; set; }
+>>>>>>> 7d731497bc5de5f582f9c84fecac832e8e0f1223
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -191,7 +195,7 @@ public class ApplicationDbContext : DbContext
 
         //
 
-        modelBuilder.Entity<Audit>()
+      /*  modelBuilder.Entity<Audit>()
        .HasMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
        .WithOne(c => c.Audit) // Un Constat appartient à un Audit
        .HasForeignKey(c => c.AuditID) // Clé étrangère dans la classe Constat
@@ -200,7 +204,7 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<Constat>()
             .HasOne(c => c.Audit) // Un Constat appartient à un Audit
             .WithMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
-            .HasForeignKey(c => c.AuditID); // Clé étrangère dans la classe Constat
+            .HasForeignKey(c => c.AuditID); // Clé étrangère dans la classe Constat*/
 
 
 
@@ -209,7 +213,11 @@ public class ApplicationDbContext : DbContext
              .WithMany()
              .HasForeignKey(c => c.typechecklist_id)
              .HasConstraintName("FK_CheckListAudits_TypeCheckList");
-
+        modelBuilder.Entity<Audit>()
+             .HasOne(c => c.typeAudit)
+             .WithMany()
+             .HasForeignKey(c => c.typeAuditId)
+             .HasConstraintName("FK_Audits_TypeAudit");
 
 
         base.OnModelCreating(modelBuilder);

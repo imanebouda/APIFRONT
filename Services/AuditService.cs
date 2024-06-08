@@ -17,8 +17,8 @@ namespace ITKANSys_api.Services
     {
 
         private static List<Audit> audits = new List<Audit>
-    { new Audit
-        {
+    {// new Audit
+       /* {
             ID = 1,
             NomAudit = "audit Informatique",
             status = "en cours",
@@ -30,7 +30,7 @@ namespace ITKANSys_api.Services
             NomAudit = "audit Informatique",
             status = "en cours",
             typeAudit = "informatique"
-        }
+        }*/
 
          
     };
@@ -47,58 +47,32 @@ namespace ITKANSys_api.Services
             configuration = AppConfig.GetConfig();
 
         }
-
-
-
-        public async Task<DataSourceResult> AddAudit(object audit)
+       
+        public async Task<Audit> AddAudit(Audit audit)
         {
             DataSourceResult dataResult = new DataSourceResult();
 
-            // var AjoutAudit = _formatObject.ConvertObjectToDynamic(audit);
-            string jsonString = audit.ToString();
-            jsonString = jsonString.Replace("ValueKind = Object : ", "");
-
-            dynamic AjoutAudit = JObject.Parse(jsonString);
-
-            try
+            var existingTypeAudit = await _context.typeAudit.FindAsync(audit.typeAuditId);
+            if (existingTypeAudit == null)
             {
-
-                using (_context)
-                {
-                    var CreationDate = Convert.ToDateTime(AjoutAudit.dateAudit).AddDays(1);
-                    if (AjoutAudit != null)
-                    {
-                        var Audit = new Audit
-                        {
-                            NomAudit = AjoutAudit.nomAudit,
-                            DateAudit = CreationDate,
-                            status = AjoutAudit.status,
-                            description = AjoutAudit.description,
-                            typeAudit = AjoutAudit.typeAudit,
-                       
-                        };
-                        await _context.Audit.AddAsync(Audit);
-                        await _context.SaveChangesAsync();
-                        dataResult.codeReponse = CodeReponse.ok;
-                        dataResult.msg = "Ajouté";
-                    }
-                    else
-                    {
-                        dataResult.codeReponse = CodeReponse.erreur;
-                        dataResult.msg = configuration.GetSection("MessagesAPI:ParamsEmpty").Value;
-                    }
-                }
-            }
-            catch
-            {
-
+                throw new ArgumentException("Le type de audit spécifié n'existe pas dans la base de données.");
             }
 
-            return dataResult;
+            // Assurez-vous que la référence au type de checklist est correctement définie dans l'objet CheckListAudit
+            audit.typeAudit = existingTypeAudit;
+
+            // Ajoutez l'objet CheckListAudit au contexte sans ajouter de nouvelle ligne à la table TypeCheckListAudit
+            _context.Audit.Add(audit);
+            await _context.SaveChangesAsync();
+
+            return audit;
 
         }
-        public async Task<DataSourceResult> DeleteAudit(string jsonString)
+
+
+        public async Task<List<Audit>?> DeleteAudit(int id)
         {
+<<<<<<< HEAD
             DataSourceResult dataResult = new DataSourceResult();
             dynamic body;
 
@@ -401,9 +375,18 @@ namespace ITKANSys_api.Services
                 dataResult.msg = "Une exception s'est produite lors de la mise à jour de l'audit.";
             }
             return dataResult;
+=======
+            var audit = await _context.Audit.FindAsync(id);
+            if (audit == null)
+                return null;
+>>>>>>> 7d731497bc5de5f582f9c84fecac832e8e0f1223
 
+            _context.Audit.Remove(audit);
+            await _context.SaveChangesAsync();
 
+            return await GetAllAudit();
         }
+<<<<<<< HEAD
 
        public async Task<List<Audit>> GetAuditsByDate(DateTime date)
         {
@@ -435,6 +418,55 @@ namespace ITKANSys_api.Services
                 throw;
             }
         }
+=======
+       
+        public async Task<List<Audit>> GetAllAudit()
+        {
+        return await _context.Audit
+                .Include(c => c.typeAudit)
+                .ToListAsync();
+        }
+        public async Task<Audit?> GetAudit(int id)
+        {
+            return await _context.Audit
+                .Include(c => c.typeAudit)
+                .FirstOrDefaultAsync(c => c.ID == id);
+        }
+
+        public async Task<List<Audit>?> UpdateAudit(int id, Audit request)
+        {
+            var audit = await _context.Audit.FindAsync(id);
+            if (audit == null)
+                return null;
+            // Check if the provided typechecklist_id exists in the TypeCheckList table
+            var typeCheckListExists = await _context.TypeCheckList.AnyAsync(t => t.id == request.typeAuditId);
+            if (!typeCheckListExists)
+            {
+                throw new Exception($"TypeCheckList with id {request.typeAuditId} does not exist.");
+            }
+
+            // Mettre à jour les propriétés de l'audit
+
+                    audit.NomAudit = request.NomAudit;
+                    audit.DateAudit = request.DateAudit;
+                    audit.status = request.status;
+                    audit.description = request.description;
+                    audit.typeAuditId = request.typeAuditId;
+
+            // Enregistrer les modifications dans la base de données
+            await _context.SaveChangesAsync();
+
+            return await GetAllAudit();
+        }
+      
+        public async Task<List<Audit>> searchAuditByType(int typeAuditId)
+        {
+            return await _context.Audit
+                .Where(c => c.typeAudit.id == typeAuditId)
+                .ToListAsync();
+        }
+        
+>>>>>>> 7d731497bc5de5f582f9c84fecac832e8e0f1223
     }
 
 
