@@ -32,6 +32,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<CheckListAudit> CheckListAudits { get; set; }
     public DbSet<SiteAudit> SiteAudits { get; set; }
     public DbSet<TypeCheckListAudit> TypeCheckList { get; set; }
+    public DbSet<ProgrammeAudit> ProgrammeAudit { get; set; }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -162,6 +163,15 @@ public class ApplicationDbContext : DbContext
        .HasForeignKey(u => u.ProcessusID)
        .OnDelete(DeleteBehavior.ClientSetNull) // Spécifiez ON DELETE NO ACTION ou une autre option selon vos besoins
        .HasConstraintName("FK_ProcesObjectifs_ProcessusID");
+
+
+
+        modelBuilder.Entity<ProgrammeAudit>()
+       .HasOne(u => u.Audit)
+       .WithMany()
+       .HasForeignKey(u => u.AuditID)
+       .OnDelete(DeleteBehavior.ClientSetNull) // Spécifiez ON DELETE NO ACTION ou une autre option selon vos besoins
+       .HasConstraintName("FK_ProgrammeAudit_AuditID");
 
 
 
