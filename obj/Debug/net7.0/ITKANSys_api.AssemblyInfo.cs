@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITKANSys_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdd178cbcbeac1a3d83086e172b016eff8de15e4")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525cdbd473279d410073a24e52d29ddeeee84ad7")]
->>>>>>> 7d731497bc5de5f582f9c84fecac832e8e0f1223
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99ca72f70405631412f8c2261aa74a2a03043b57")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITKANSys_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITKANSys_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

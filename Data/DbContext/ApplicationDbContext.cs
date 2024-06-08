@@ -32,12 +32,13 @@ public class ApplicationDbContext : DbContext
     public DbSet<CheckListAudit> CheckListAudits { get; set; }
     public DbSet<SiteAudit> SiteAudits { get; set; }
     public DbSet<TypeCheckListAudit> TypeCheckList { get; set; }
-<<<<<<< HEAD
+
     public DbSet<ProgrammeAudit> ProgrammeAudit { get; set; }
 
-=======
     public DbSet<TypeAudit> typeAudit { get; set; }
->>>>>>> 7d731497bc5de5f582f9c84fecac832e8e0f1223
+
+    public DbSet<TypeAudit> TypeConstat { get; set; }
+
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

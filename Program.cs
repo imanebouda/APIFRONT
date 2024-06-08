@@ -98,11 +98,11 @@ builder.Services.AddScoped<IConstatService, ConstatService>();
 builder.Services.AddScoped<formatObject>();
 builder.Services.AddScoped<IChecklistAuditService, CheckListAuditService>();
 builder.Services.AddScoped<ITypeCheckListAuditService, TypeCheckListAuditService>();
-<<<<<<< HEAD
+
 builder.Services.AddScoped<IProgrammeAudit, ProgrammeAuditService>();
-=======
+
 builder.Services.AddScoped<ITypeAuditService, TypeAuditService>();
->>>>>>> 7d731497bc5de5f582f9c84fecac832e8e0f1223
+
 
 var mappingConfig = new MapperConfiguration(mc => { mc.AddProfile(new MapperConfig()); });
 

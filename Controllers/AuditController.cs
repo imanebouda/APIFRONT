@@ -55,7 +55,7 @@ namespace ITKANSys_api.Controllers
 
         }
 
-       
+
         [HttpPut("{id}")]
         //Task<DataSourceResult> UpdateAudit(int id, object audit)
         public async Task<object> UpdateAudit(int id, [FromBody] object audit)
@@ -74,7 +74,7 @@ namespace ITKANSys_api.Controllers
                 }
                 else
                 {
-                  //  dataResult = await _auditService.UpdateAudit(id, jsonString);
+                    //  dataResult = await _auditService.UpdateAudit(id, jsonString);
                 }
             }
             catch (Exception ex)
@@ -101,125 +101,6 @@ namespace ITKANSys_api.Controllers
 
             return NoContent();
         }
-<<<<<<< HEAD
-        [HttpGet("byDate")]
-        public async Task<ActionResult<List<Audit>>> GetAuditsByDate([FromQuery] DateTime date)
-        {
-            try
-            {
-                var audits = await _auditService.GetAuditsByDate(date);
-                return Ok(audits);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Une exception s'est produite : {ex.Message}");
-                return StatusCode(500, "Internal server error");
-            }
-        }
-        [HttpGet("byType")]
-        public async Task<ActionResult<List<Audit>>> GetAuditsByType([FromQuery] string type)
-        {
-            try
-            {
-                var audits = await _auditService.GetAuditsByType(type);
-                return Ok(audits);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Une exception s'est produite : {ex.Message}");
-                return StatusCode(500, "Internal server error");
-            }
-
-
-            /*2
-            [HttpPost, Route("DeleteAudit"), Produces("application/json")]
-            public async Task<object> DeleteAudit([FromBody] object auditData)
-            {
-                DataSourceResult dataResult = new DataSourceResult();
-
-                try
-                {
-                    string jsonString = auditData.ToString();
-                    jsonString = jsonString.Replace("ValueKind = Object : ", "");
-
-                    if (string.IsNullOrEmpty(jsonString))
-                    {
-                        dataResult.codeReponse = CodeReponse.errorMissingAllParams;
-                    }
-                    else
-                    {
-                        dataResult = await _auditService.DeleteAudit(jsonString);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    dataResult.codeReponse = CodeReponse.error;
-                    dataResult.msg = ex.InnerException == null ? ex.Message : ex.InnerException.Message;
-                }
-                finally
-                {
-                    // Libérez les ressources ici si nécessaire.
-                }
-
-                return JsonConvert.SerializeObject(dataResult);
-            }*/
-
-
-            /*
-            [HttpDelete, Route("Audit/Delete/{id}"), Produces("application/json")]
-            public async Task<object> DeleteAudit(int id)
-            {
-                DataSourceResult dataResult = new DataSourceResult();
-
-                try
-                {
-                    var auditToDelete = await _auditService.DeleteAudit(id);
-                    return auditToDelete; // ou tout autre traitement nécessaire ici
-                }
-                catch (Exception ex)
-                {
-                    dataResult.codeReponse = CodeReponse.error;
-                    dataResult.msg = ex.InnerException == null ? ex.Message : ex.InnerException.Message;
-                }
-                finally
-                {
-                    // Libérez les ressources ici si nécessaire.
-                }
-
-                return JsonConvert.SerializeObject(dataResult);
-            }*/
-            /*8
-            [HttpPost, Route("Audit/Delete"), Produces("application/json")]
-            public async Task<object> DeleteAudit([FromBody] dynamic auditData)
-            {
-                DataSourceResult dataResult = new DataSourceResult();
-
-                try
-                {
-                    int id = auditData.id;
-                    if (id > 0)
-                    {
-                        dataResult = await _auditService.DeleteAudit(id);
-                    }
-                    else
-                    {
-                        dataResult.codeReponse = CodeReponse.error;
-                        dataResult.msg = "ID de l'audit invalide.";
-                    }
-                }
-                catch (Exception ex)
-                {
-                    dataResult.codeReponse = CodeReponse.error;
-                    dataResult.msg = ex.InnerException == null ? ex.Message : ex.InnerException.Message;
-                }
-                finally
-                {
-                    // Libérez les ressources ici si nécessaire.
-                }
-
-                return JsonConvert.SerializeObject(dataResult);
-            }*/
-=======
 
         [HttpGet("search")]
         public async Task<ActionResult<List<Audit>>> SearchAuditByType(int typeAuditId)
@@ -230,9 +111,7 @@ namespace ITKANSys_api.Controllers
 
             return Ok(result);
         }
->>>>>>> 7d731497bc5de5f582f9c84fecac832e8e0f1223
 
 
-        }
     }
 }

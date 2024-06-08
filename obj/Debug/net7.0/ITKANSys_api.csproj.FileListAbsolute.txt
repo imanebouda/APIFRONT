@@ -528,3 +528,4 @@ C:\Users\HP\Desktop\Etude\stage Siliat\Itkan\APIFRONT\obj\Debug\net7.0\ITKANSys_
 C:\Users\HP\Desktop\Etude\stage Siliat\Itkan\APIFRONT\obj\Debug\net7.0\ITKANSys_api.genruntimeconfig.cache
 C:\Users\HP\Desktop\Etude\stage Siliat\Itkan\APIFRONT\obj\Debug\net7.0\ref\ITKANSys_api.dll
 C:\Users\HP\Desktop\Etude\stage Siliat\Itkan\APIFRONT\bin\Debug\net7.0\package-lock.json
+C:\Users\admin\Documents\Stage Pfe\version stable\test\ITKAN_API-second\bin\Debug\net7.0\package-lock.json

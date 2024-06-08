@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Etude\\stage Siliat\\Itkan\\APIFRONT\\ITKANSys_api.csproj": {}
+    "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\ITKANSys_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Etude\\stage Siliat\\Itkan\\APIFRONT\\ITKANSys_api.csproj": {
+    "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\ITKANSys_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Etude\\stage Siliat\\Itkan\\APIFRONT\\ITKANSys_api.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\ITKANSys_api.csproj",
         "projectName": "ITKANSys_api",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Etude\\stage Siliat\\Itkan\\APIFRONT\\ITKANSys_api.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Etude\\stage Siliat\\Itkan\\APIFRONT\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\ITKANSys_api.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
