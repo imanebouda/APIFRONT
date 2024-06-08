@@ -98,6 +98,7 @@ builder.Services.AddScoped<IConstatService, ConstatService>();
 builder.Services.AddScoped<formatObject>();
 builder.Services.AddScoped<IChecklistAuditService, CheckListAuditService>();
 builder.Services.AddScoped<ITypeCheckListAuditService, TypeCheckListAuditService>();
+builder.Services.AddScoped<ITypeAuditService, TypeAuditService>();
 
 var mappingConfig = new MapperConfiguration(mc => { mc.AddProfile(new MapperConfig()); });
 
