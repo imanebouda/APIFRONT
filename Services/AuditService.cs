@@ -8,44 +8,26 @@ using ITKANSys_api.Utility.ApiResponse;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ITKANSys_api.Services
 {
-
     public class AuditService : IAuditService
     {
-
-        private static List<Audit> audits = new List<Audit>
-        {// new Audit
-            /* {
-                 ID = 1,
-                 NomAudit = "audit Informatique",
-                 status = "en cours",
-                 typeAudit = "informatique"
-             },
-             new Audit
-             {
-                 ID = 2,
-                 NomAudit = "audit Informatique",
-                 status = "en cours",
-                 typeAudit = "informatique"
-             }*/
-
-
-        };
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
         private readonly formatObject _formatObject;
-        private IConfiguration configuration;
+        private readonly IConfiguration _configuration;
 
         public AuditService(ApplicationDbContext context, IMapper mapper, formatObject formatObject)
         {
             _context = context;
             _mapper = mapper;
             _formatObject = formatObject;
-            configuration = AppConfig.GetConfig();
-
+            _configuration = AppConfig.GetConfig();
         }
 
         public async Task<Audit> AddAudit(Audit audit)
@@ -69,7 +51,6 @@ namespace ITKANSys_api.Services
 
         }
 
-
         public async Task<List<Audit>?> DeleteAudit(int id)
         {
             var audit = await _context.Audit.FindAsync(id);
@@ -82,17 +63,21 @@ namespace ITKANSys_api.Services
             return await GetAllAudit();
         }
 
-        public async Task<List<Audit>> GetAllAudit()
+        public async Task<List<Audit>?> GetAllAudit()
         {
             return await _context.Audit
-                    .Include(c => c.typeAudit)
-                    .ToListAsync();
+                .Include(a => a.typeAudit)
+                .Include(a => a.Auditor) // Include the auditor information
+                .ToListAsync();
         }
+
+
         public async Task<Audit?> GetAudit(int id)
         {
             return await _context.Audit
-                .Include(c => c.typeAudit)
-                .FirstOrDefaultAsync(c => c.ID == id);
+                .Include(a => a.typeAudit)
+                .Include(a => a.Auditor) // Include the auditor information
+                .FirstOrDefaultAsync(a => a.ID == id);
         }
 
         public async Task<List<Audit>?> UpdateAudit(int id, Audit request)
@@ -114,6 +99,7 @@ namespace ITKANSys_api.Services
             audit.status = request.status;
             audit.description = request.description;
             audit.typeAuditId = request.typeAuditId;
+            audit.UserId = request.UserId;
 
             // Enregistrer les modifications dans la base de données
             await _context.SaveChangesAsync();
@@ -121,13 +107,12 @@ namespace ITKANSys_api.Services
             return await GetAllAudit();
         }
 
-        public async Task<List<Audit>> searchAuditByType(int typeAuditId)
+        public async Task<List<Audit>?> SearchAuditByType(int typeAuditId)
         {
             return await _context.Audit
-                .Where(c => c.typeAudit.id == typeAuditId)
+                .Where(a => a.typeAudit.id == typeAuditId)
+                .Include(a => a.Auditor) // Include the auditor information
                 .ToListAsync();
         }
-
-      
     }
 }

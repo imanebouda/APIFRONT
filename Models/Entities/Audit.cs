@@ -8,7 +8,7 @@ namespace ITKANSys_api.Models.Entities
     public class Audit
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Clé primaire auto-incrémentée
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Auto-increment primary key
         public int ID { get; set; }
 
         [Required]
@@ -23,19 +23,21 @@ namespace ITKANSys_api.Models.Entities
         [Required]
         public string description { get; set; }
 
-        // Propriété de clé étrangère
+        // Foreign key property
         public int typeAuditId { get; set; }
 
-        // Propriété de navigation
+        // Navigation property
         [ForeignKey("typeAuditId")]
         public TypeAudit typeAudit { get; set; }
 
-        // Association One-to-Many avec la classe Constat
-        //  [InverseProperty("Audit")]
-        //  public ICollection<Constat> Constats { get; set; }
+        // Foreign key property for the auditor (user)
+        public int UserId { get; set; }
 
-        // Association One-to-Many avec la classe Processus
-        // [InverseProperty("Audit")]
-        //  public ICollection<Processus> Processus { get; set; }
+        // Navigation property for the auditor
+        [ForeignKey("UserId")]
+        public User? Auditor { get; set; }
+
+        
+
     }
 }

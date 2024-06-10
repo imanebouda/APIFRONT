@@ -219,6 +219,12 @@ public class ApplicationDbContext : DbContext
              .WithMany()
              .HasForeignKey(c => c.typeAuditId)
              .HasConstraintName("FK_Audits_TypeAudit");
+      
+        modelBuilder.Entity<Audit>()
+              .HasOne(c => c.Auditor)
+              .WithMany()
+              .HasForeignKey(c => c.UserId)
+              .HasConstraintName("FK_Audit_Users");
 
 
         base.OnModelCreating(modelBuilder);
