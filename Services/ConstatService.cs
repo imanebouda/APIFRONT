@@ -6,6 +6,28 @@ namespace ITKANSys_api.Services
 {
     public class ConstatService : IConstatService
     {
+
+
+
+        private readonly ApplicationDbContext _context;
+
+        public ConstatService(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+        public async Task<List<Constat>> GetAllConstat()
+        {
+            return await _context.Constat.ToListAsync();
+
+
+        }
+
+
+
+
+
+
+
         Task<List<Constat>> IConstatService.AddConstat(Constat constat)
         {
             throw new NotImplementedException();
@@ -16,10 +38,7 @@ namespace ITKANSys_api.Services
             throw new NotImplementedException();
         }
 
-        Task<List<Constat>> IConstatService.GetAllConstat()
-        {
-            throw new NotImplementedException();
-        }
+       
 
         Task<Constat?> IConstatService.GetConstat(int id)
         {

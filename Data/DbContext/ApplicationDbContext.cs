@@ -37,7 +37,7 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<TypeAudit> typeAudit { get; set; }
 
-    public DbSet<TypeAudit> TypeConstat { get; set; }
+    public DbSet<TypeContat> TypeContat { get; set; }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -219,6 +219,22 @@ public class ApplicationDbContext : DbContext
              .WithMany()
              .HasForeignKey(c => c.typeAuditId)
              .HasConstraintName("FK_Audits_TypeAudit");
+
+
+
+        modelBuilder.Entity<Constat>()
+            .HasOne(c => c.typeConstat)
+            .WithMany()
+            .HasForeignKey(c => c.typeConstatId)
+            .HasConstraintName("FK_Constats_TypeConstat");
+
+
+
+        modelBuilder.Entity<Constat>()
+            .HasOne(c => c.Checklist)
+            .WithMany()
+            .HasForeignKey(c => c.ChecklistId)
+            .HasConstraintName("FK_Constats_Checklist");
 
 
         base.OnModelCreating(modelBuilder);
