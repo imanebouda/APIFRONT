@@ -38,6 +38,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<TypeAudit> typeAudit { get; set; }
 
     public DbSet<TypeContat> TypeContat { get; set; }
+   
+    public DbSet<Check_list> Check_lists { get; set; }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -219,6 +221,12 @@ public class ApplicationDbContext : DbContext
              .WithMany()
              .HasForeignKey(c => c.typeAuditId)
              .HasConstraintName("FK_Audits_TypeAudit");
+      
+        modelBuilder.Entity<Audit>()
+              .HasOne(c => c.Auditor)
+              .WithMany()
+              .HasForeignKey(c => c.UserId)
+              .HasConstraintName("FK_Audit_Users");
 
 
 
@@ -235,6 +243,33 @@ public class ApplicationDbContext : DbContext
             .WithMany()
             .HasForeignKey(c => c.ChecklistId)
             .HasConstraintName("FK_Constats_Checklist");
+
+
+
+
+        // Configure Check_list entity
+        modelBuilder.Entity<Check_list>(entity =>
+        {
+            entity.HasKey(e => new { e.typeAuditId, e.SMQ_ID, e.ProcessusID });
+
+            entity.HasOne(e => e.typeAudit)
+                .WithMany()
+                .HasForeignKey(e => e.typeAuditId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Check_list_TypeAudit");
+
+            entity.HasOne(e => e.SMQ)
+                .WithMany()
+                .HasForeignKey(e => e.SMQ_ID)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Check_list_SMQ");
+
+            entity.HasOne(e => e.Processus)
+                .WithMany()
+                .HasForeignKey(e => e.ProcessusID)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Check_list_Processus");
+        });
 
 
         base.OnModelCreating(modelBuilder);

@@ -35,7 +35,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ITKANSys_api.Models.Entities.CheckListAudit",
+        "Type": "ITKANSys_api.Models.Entities.Audit",
         "MediaTypes": [
           "application/json"
         ],
@@ -84,11 +84,21 @@
       },
       {
         "Name": "audit",
-        "Type": "System.Object",
+        "Type": "ITKANSys_api.Models.Entities.Audit",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ITKANSys_api.Models.Entities.Audit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ITKANSys_api.Controllers.AuditController",
@@ -415,6 +425,135 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.Check_listController",
+    "Method": "GetAllCheckListAudit",
+    "RelativePath": "api/Check_list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ITKANSys_api.Models.Entities.Check_list, ITKANSys_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.Check_listController",
+    "Method": "AddCheckListAudit",
+    "RelativePath": "api/Check_list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "checkListAudit",
+        "Type": "ITKANSys_api.Models.Entities.Check_list",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ITKANSys_api.Models.Entities.Check_list",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.Check_listController",
+    "Method": "GetCheckListAudit",
+    "RelativePath": "api/Check_list/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ITKANSys_api.Models.Entities.Check_list",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.Check_listController",
+    "Method": "UpdateCheckListAudit",
+    "RelativePath": "api/Check_list/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ITKANSys_api.Models.Entities.Check_list",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ITKANSys_api.Models.Entities.Check_list, ITKANSys_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.Check_listController",
+    "Method": "DeleteCheckListAudit",
+    "RelativePath": "api/Check_list/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ITKANSys_api.Models.Entities.Check_list, ITKANSys_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ITKANSys_api.Controllers.ChecklistAuditController",
