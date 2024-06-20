@@ -40,10 +40,10 @@ namespace ITKANSys_api.Models
         [ForeignKey("CoPilote")]
         public User CoPiloteUser { get; set; }
 
-        [ForeignKey("Audit")] // Spécifie la clé étrangère
-        public int AuditID { get; set; }
+       // [ForeignKey("Audit")] // Spécifie la clé étrangère
+        //public int AuditID { get; set; }
 
-        public Audit Audit { get; set; } // Association Many-to-One avec la classe Audit
+        //public Audit Audit { get; set; } // Association Many-to-One avec la classe Audit
     }
 }
 

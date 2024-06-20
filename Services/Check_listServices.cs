@@ -15,8 +15,16 @@ namespace ITKANSys_api.Services
 
         public async Task<List<Check_list>> GetAllCheckListAudit()
         {
-            return await _context.Check_lists.ToListAsync();
+            //return await _context.Check_lists.ToListAsync();
+
+            return await _context.Check_lists
+                .Include(a => a.typeAudit)
+                .Include(a => a.SMQ)
+                .Include(a => a.Processus)
+                .ToListAsync();
         }
+
+    
 
         public async Task<Check_list?> GetCheckListAudit(int checkListId)
         {

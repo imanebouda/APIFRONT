@@ -247,29 +247,29 @@ public class ApplicationDbContext : DbContext
 
 
 
-        // Configure Check_list entity
-        modelBuilder.Entity<Check_list>(entity =>
-        {
-            entity.HasKey(e => new { e.typeAuditId, e.SMQ_ID, e.ProcessusID });
+       
+        modelBuilder.Entity<Check_list>()
+            .HasOne(c => c.typeAudit)
+            .WithMany()
+            .HasForeignKey(c => c.typeAuditId)
+            .HasConstraintName("FK_Check_list_TypeAudit");
 
-            entity.HasOne(e => e.typeAudit)
-                .WithMany()
-                .HasForeignKey(e => e.typeAuditId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Check_list_TypeAudit");
+        modelBuilder.Entity<Check_list>()
+           .HasOne(c => c.SMQ)
+           .WithMany()
+           .HasForeignKey(c => c.SMQ_ID)
+           .HasConstraintName("FK_Check_list_SMQ");
 
-            entity.HasOne(e => e.SMQ)
-                .WithMany()
-                .HasForeignKey(e => e.SMQ_ID)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Check_list_SMQ");
 
-            entity.HasOne(e => e.Processus)
-                .WithMany()
-                .HasForeignKey(e => e.ProcessusID)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Check_list_Processus");
-        });
+        modelBuilder.Entity<Check_list>()
+          .HasOne(c => c.Processus)
+          .WithMany()
+          .HasForeignKey(c => c.ProcessusID)
+          .HasConstraintName("FK_Check_list_Processus");
+
+
+
+
 
 
         base.OnModelCreating(modelBuilder);
