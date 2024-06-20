@@ -306,5 +306,15 @@ namespace ITKANSys_api.Services.Param
 
             return result;
         }
+
+
+        public async Task<List<SMQ>?> GetAllSMQ()
+        {
+            return await _ctx.SMQ
+                .Include(a => a.Sites)
+                
+                .ToListAsync();
+
+        }
     }
 }

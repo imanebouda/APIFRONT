@@ -1,4 +1,5 @@
-﻿using ITKANSys_api.Utility.ApiResponse;
+﻿using ITKANSys_api.Models.Entities.Param;
+using ITKANSys_api.Utility.ApiResponse;
 
 namespace ITKANSys_api.Interfaces
 {
@@ -8,5 +9,7 @@ namespace ITKANSys_api.Interfaces
         Task<DataSourceResult> Insert(Object record);
         Task<DataSourceResult> Update(Object record);
         Task<DataSourceResult> Delete(Object record);
+        Task<List<SMQ>?> GetAllSMQ();
+
     }
 }

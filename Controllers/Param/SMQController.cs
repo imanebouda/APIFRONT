@@ -1,4 +1,5 @@
 ﻿using ITKANSys_api.Interfaces;
+using ITKANSys_api.Models.Entities.Param;
 using ITKANSys_api.Services.Param;
 using ITKANSys_api.Utility.ApiResponse;
 using Microsoft.AspNetCore.Mvc;
@@ -16,6 +17,14 @@ namespace ITKANSys_api.Controllers.Param
         public SMQController(ISMQService smqService)
         {
             _smqService = smqService;
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult<List<SMQ>>> GetAllSMQ()
+        {
+            var smqlists = await _smqService.GetAllSMQ();
+            return Ok(smqlists);
         }
 
         [HttpPost, Route("Search"), Produces("application/json")]
