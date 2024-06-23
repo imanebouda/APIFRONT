@@ -32,9 +32,38 @@ namespace ITKANSys_api.Services
         }
 
         public async Task<Check_list> AddCheckListAudit(Check_list checkListAudit)
-        {
+        {/*
             _context.Check_lists.Add(checkListAudit);
             await _context.SaveChangesAsync();
+            return checkListAudit;*/
+            // Vérifie l'existence de l'entité TypeAudit
+            var existingTypeAudit = await _context.typeAudit.FindAsync(checkListAudit.typeAuditId);
+            if (existingTypeAudit == null)
+            {
+                throw new ArgumentException("Le type d'audit spécifié n'existe pas dans la base de données.");
+            }
+            checkListAudit.typeAudit = existingTypeAudit;
+
+            // Vérifie l'existence de l'entité Smq
+            var existingSmq = await _context.SMQ.FindAsync(checkListAudit.SMQ_ID);
+            if (existingSmq == null)
+            {
+                throw new ArgumentException("Le smq spécifié n'existe pas dans la base de données.");
+            }
+            checkListAudit.SMQ = existingSmq;
+
+            // Vérifie l'existence de l'entité Processus
+            var existingProcessus = await _context.Processus.FindAsync(checkListAudit.ProcessusID);
+            if (existingProcessus == null)
+            {
+                throw new ArgumentException("Le processus spécifié n'existe pas dans la base de données.");
+            }
+            checkListAudit.Processus = existingProcessus;
+
+            // Ajoute l'objet Check_list au contexte
+            _context.Check_lists.Add(checkListAudit);
+            await _context.SaveChangesAsync();
+
             return checkListAudit;
         }
 

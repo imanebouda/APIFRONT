@@ -36,11 +36,13 @@ namespace ITKANSys_api.Controllers
             return Ok(checkList);
         }
 
-        [HttpPost]
+        [HttpPost, Produces("application/json")]
         public async Task<ActionResult<Check_list>> AddCheckListAudit(Check_list checkListAudit)
         {
             var createdCheckList = await _checkListService.AddCheckListAudit(checkListAudit);
-            return CreatedAtAction(nameof(GetCheckListAudit), new { id = createdCheckList.typeAuditId }, createdCheckList);
+            return CreatedAtAction(nameof(GetCheckListAudit), new { id = createdCheckList.Id }, createdCheckList);
+
+           
         }
 
         [HttpPut("{id}")]

@@ -464,9 +464,7 @@
       {
         "Type": "ITKANSys_api.Models.Entities.Check_list",
         "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
+          "application/json"
         ],
         "StatusCode": 200
       }
