@@ -105,7 +105,7 @@ builder.Services.AddScoped<ITypeConstatServicecs, TypeConstatService>();
 
 
 builder.Services.AddScoped<ITypeAuditService, TypeAuditService>();
-
+/*
 
 var mappingConfig = new MapperConfiguration(mc => { mc.AddProfile(new MapperConfig()); });
 
@@ -124,6 +124,49 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("AllowSpecificOrigin");
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+*/
+//var builder = WebApplication.CreateBuilder(args);
+
+// Ajouter des services au conteneur
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Configuration AutoMapper
+var mappingConfig = new MapperConfiguration(mc => { mc.AddProfile(new MapperConfig()); });
+builder.Services.AddAutoMapper(typeof(MapperConfig));
+
+// Configuration CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+// Utiliser la politique CORS configurée
+app.UseCors("AllowAllOrigins");
 
 app.UseAuthentication();
 app.UseAuthorization();

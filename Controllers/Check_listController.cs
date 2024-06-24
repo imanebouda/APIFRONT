@@ -1,6 +1,7 @@
 ﻿using ITKANSys_api.Models.Entities;
 using ITKANSys_api.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ITKANSys_api.Controllers
 {
@@ -35,7 +36,7 @@ namespace ITKANSys_api.Controllers
 
             return Ok(checkList);
         }
-
+        
         [HttpPost, Produces("application/json")]
         public async Task<ActionResult<Check_list>> AddCheckListAudit(Check_list checkListAudit)
         {
@@ -44,6 +45,10 @@ namespace ITKANSys_api.Controllers
 
            
         }
+
+
+
+       
 
         [HttpPut("{id}")]
         public async Task<ActionResult<List<Check_list>>> UpdateCheckListAudit(int id, Check_list request)

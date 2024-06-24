@@ -18,7 +18,7 @@ namespace ITKANSys_api.Models.Entities
 
         // Navigation property
         [ForeignKey("typeAuditId")]
-        public TypeAudit typeAudit { get; set; }
+        public TypeAudit? typeAudit { get; set; }
 
 
 
@@ -26,14 +26,14 @@ namespace ITKANSys_api.Models.Entities
      
 
         [ForeignKey("SMQ_ID")]
-        public SMQ SMQ { get; set; }
+        public SMQ? SMQ { get; set; }
 
 
         // Clé étrangère pour représenter la relation avec Processus
         public int ProcessusID { get; set; }
 
         [ForeignKey("ProcessusID")]
-        public Processus Processus { get; set; }
+        public Processus? Processus { get; set; }
 
     }
 }
