@@ -674,6 +674,32 @@
   },
   {
     "ContainingType": "ITKANSys_api.Controllers.ChecklistAuditController",
+    "Method": "GetCheckListAuditsByCheckListId",
+    "RelativePath": "api/ChecklistAudit/GetCheckListAuditsByCheckListId/{checkListId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "checkListId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ITKANSys_api.Models.Entities.CheckListAudit, ITKANSys_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ITKANSys_api.Controllers.ChecklistAuditController",
     "Method": "SearchChecklistByType",
     "RelativePath": "api/ChecklistAudit/search",
     "HttpMethod": "GET",

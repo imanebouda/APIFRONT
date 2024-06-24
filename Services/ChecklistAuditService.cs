@@ -27,7 +27,18 @@ namespace ITKANSys_api.Services
         {
             return await _context.CheckListAudits
                 .Include(c => c.TypeCheckListAudit)
+                 .Include(c => c.CheckList)
                 .FirstOrDefaultAsync(c => c.id == id);
+        }
+
+
+        public async Task<List<CheckListAudit>> GetQuestionsForCheckListAudit(int checkListAuditId)
+
+        {
+            return await _context.CheckListAudits
+                .Where(c => c.CheckListAuditId == checkListAuditId)
+                .Include(c => c.TypeCheckListAudit) // Inclure les données de TypeCheckListAudit si nécessaire
+                .ToListAsync();
         }
 
         public async Task<CheckListAudit> AddCheckListAudit(CheckListAudit checkListAudit)

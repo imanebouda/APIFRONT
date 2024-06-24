@@ -11,6 +11,11 @@ namespace ITKANSys_api.Interfaces
         Task<CheckListAudit> AddCheckListAudit(CheckListAudit checkListAudit);
         Task<List<CheckListAudit>?> UpdateCheckListAudit(int checkListId, CheckListAudit request);
         Task<List<CheckListAudit>?> DeleteCheckListAudit(int checkListId);
-        Task<List<CheckListAudit>> SearchChecklistByType(int typeChecklistId); // Ajout de la méthode de recherche par type
+        Task<List<CheckListAudit>> SearchChecklistByType(int typeChecklistId);
+
+        // Ajout de la méthode de recherche par type
+
+
+        Task<List<CheckListAudit>> GetQuestionsForCheckListAudit(int checkListAuditId);
     }
 }

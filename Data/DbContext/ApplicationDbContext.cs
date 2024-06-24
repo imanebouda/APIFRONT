@@ -216,6 +216,20 @@ public class ApplicationDbContext : DbContext
              .WithMany()
              .HasForeignKey(c => c.typechecklist_id)
              .HasConstraintName("FK_CheckListAudits_TypeCheckList");
+
+
+
+
+
+
+        modelBuilder.Entity<CheckListAudit>()
+             .HasOne(c => c.CheckList)
+             .WithMany()
+             .HasForeignKey(c => c.CheckListAuditId)
+             .HasConstraintName("FK_CheckListAudits_checklist");
+
+
+
         modelBuilder.Entity<Audit>()
              .HasOne(c => c.typeAudit)
              .WithMany()

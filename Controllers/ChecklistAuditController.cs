@@ -3,6 +3,7 @@ using ITKANSys_api.Models.Entities;
 using ITKANSys_api.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace ITKANSys_api.Controllers
 {
@@ -23,6 +24,22 @@ namespace ITKANSys_api.Controllers
             var checkListAudits = await _checklistAuditService.GetAllCheckListAudit();
             return Ok(checkListAudits);
         }
+
+
+        [HttpGet("GetCheckListAuditsByCheckListId/{checkListId}")]
+        public async Task<ActionResult<List<CheckListAudit>>> GetCheckListAuditsByCheckListId(int checkListId)
+        {
+            var audits = await _checklistAuditService.GetQuestionsForCheckListAudit(checkListId);
+
+            if (audits == null || audits.Count == 0)
+            {
+                return NotFound(); // Retourner NotFound si aucun CheckListAudit n'est trouvé pour cet ID de Check_list
+            }
+
+            return audits;
+        }
+
+
 
         [HttpGet("{id}")]
         public async Task<ActionResult<CheckListAudit>> GetSingleChecklistAudit(int id)
