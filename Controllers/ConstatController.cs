@@ -36,18 +36,18 @@ namespace ITKANSys_api.Controllers
 
             return Ok(result);
         }
-
         [HttpPost]
-
-        public async Task<ActionResult<List<Constat>>> AddConstat(Constat constat)
+        public async Task<ActionResult<IEnumerable<Constat>>> AddConstat(Constat constat)
         {
-
-            var result = await _constatService.AddConstat(constat);
-            if (result is null)
-                return NotFound("constat n ' est existante");
-
-
-            return Ok(result);
+            try
+            {
+                var result = await _constatService.AddConstat(constat);
+                return CreatedAtAction(nameof(GetConstat), new { id = constat.ID }, result);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
 

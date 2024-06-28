@@ -6,9 +6,10 @@ namespace ITKANSys_api.Models.Entities
     public class Constat
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
-        [Required]
+        //[Required]
       
         public string constat { get; set; }
        
@@ -18,11 +19,11 @@ namespace ITKANSys_api.Models.Entities
 
         // Propriété de navigation
         [ForeignKey("typeConstatId")]
-        public TypeContat typeConstat { get; set; }
+        public TypeContat? typeConstat { get; set; }
 
 
         // Propriété de navigation
         [ForeignKey("ChecklistId")]
-        public CheckListAudit Checklist { get; set; }
+        public CheckListAudit? Checklist { get; set; }
     }
 }

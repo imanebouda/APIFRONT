@@ -26,7 +26,7 @@ namespace ITKANSys_api.Models.Entities
 
         // Propriété de navigation
         [ForeignKey("typechecklist_id")]
-        public TypeCheckListAudit TypeCheckListAudit { get; set; }
+        public TypeCheckListAudit? TypeCheckListAudit { get; set; }
 
 
         public int CheckListAuditId { get; set; }

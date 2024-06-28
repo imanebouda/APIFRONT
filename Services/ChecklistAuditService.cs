@@ -43,47 +43,67 @@ namespace ITKANSys_api.Services
 
         public async Task<CheckListAudit> AddCheckListAudit(CheckListAudit checkListAudit)
         {
-            // Vérifiez si le type de checklist existe dans la table TypeCheckListAudit
-            var existingTypeCheckList = await _context.TypeCheckList.FindAsync(checkListAudit.typechecklist_id);
-
-            if (existingTypeCheckList == null)
+            // Vérifie l'existence de l'entité TypeCheckListAudit
+            var existingTypeCheckListAudit = await _context.TypeCheckList.FindAsync(checkListAudit.typechecklist_id);
+            if (existingTypeCheckListAudit == null)
             {
                 throw new ArgumentException("Le type de checklist spécifié n'existe pas dans la base de données.");
             }
+            checkListAudit.TypeCheckListAudit = existingTypeCheckListAudit;
 
-            // Assurez-vous que la référence au type de checklist est correctement définie dans l'objet CheckListAudit
-            checkListAudit.TypeCheckListAudit = existingTypeCheckList;
+            // Vérifie l'existence de l'entité Check_list
+            var existingCheckList = await _context.Check_lists.FindAsync(checkListAudit.CheckListAuditId);
+            if (existingCheckList == null)
+            {
+                throw new ArgumentException("La checklist spécifiée n'existe pas dans la base de données.");
+            }
+            checkListAudit.CheckList = existingCheckList;
 
-            // Ajoutez l'objet CheckListAudit au contexte sans ajouter de nouvelle ligne à la table TypeCheckListAudit
+            // Ajoute l'objet CheckListAudit au contexte
             _context.CheckListAudits.Add(checkListAudit);
             await _context.SaveChangesAsync();
 
             return checkListAudit;
         }
 
-        public async Task<List<CheckListAudit>?> UpdateCheckListAudit(int id, CheckListAudit request)
-        {
-            var checkListAudit = await _context.CheckListAudits.FindAsync(id);
-            if (checkListAudit == null)
-                return null;
 
-            // Check if the provided typechecklist_id exists in the TypeCheckList table
-            var typeCheckListExists = await _context.TypeCheckList.AnyAsync(t => t.id == request.typechecklist_id);
-            if (!typeCheckListExists)
+        public async Task<CheckListAudit> UpdateCheckListAudit(int id, CheckListAudit updatedCheckListAudit)
+        {
+            // Recherche l'entité CheckListAudit par ID
+            var existingCheckListAudit = await _context.CheckListAudits.FindAsync(id);
+            if (existingCheckListAudit == null)
             {
-                throw new Exception($"TypeCheckList with id {request.typechecklist_id} does not exist.");
+                throw new ArgumentException("La checklist spécifiée n'existe pas dans la base de données.");
             }
 
-            checkListAudit.name = request.name;
-            checkListAudit.niveau = request.niveau;
-            checkListAudit.code = request.code;
-            checkListAudit.description = request.description;
-            checkListAudit.typechecklist_id = request.typechecklist_id;
+            // Vérifie l'existence de l'entité TypeCheckListAudit
+            var existingTypeCheckListAudit = await _context.TypeCheckList.FindAsync(updatedCheckListAudit.typechecklist_id);
+            if (existingTypeCheckListAudit == null)
+            {
+                throw new ArgumentException("Le type de checklist spécifié n'existe pas dans la base de données.");
+            }
+            existingCheckListAudit.TypeCheckListAudit = existingTypeCheckListAudit;
 
+            // Vérifie l'existence de l'entité Check_list
+            var existingCheckList = await _context.Check_lists.FindAsync(updatedCheckListAudit.CheckListAuditId);
+            if (existingCheckList == null)
+            {
+                throw new ArgumentException("La checklist spécifiée n'existe pas dans la base de données.");
+            }
+            existingCheckListAudit.CheckList = existingCheckList;
+
+            // Met à jour les autres propriétés de CheckListAudit
+            existingCheckListAudit.name = updatedCheckListAudit.name;
+            existingCheckListAudit.niveau = updatedCheckListAudit.niveau;
+            existingCheckListAudit.code = updatedCheckListAudit.code;
+            existingCheckListAudit.description = updatedCheckListAudit.description;
+
+            // Sauvegarde les modifications dans le contexte
             await _context.SaveChangesAsync();
 
-            return await GetAllCheckListAudit();
+            return existingCheckListAudit;
         }
+
 
 
         public async Task<List<CheckListAudit>?> DeleteCheckListAudit(int id)
@@ -104,5 +124,7 @@ namespace ITKANSys_api.Services
                 .Where(c => c.TypeCheckListAudit.id == typeChecklistId)
                 .ToListAsync();
         }
+
+       
     }
 }
