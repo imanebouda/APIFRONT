@@ -40,6 +40,10 @@ public class ApplicationDbContext : DbContext
     public DbSet<TypeContat> TypeContat { get; set; }
    
     public DbSet<Check_list> Check_lists { get; set; }
+    public DbSet<ITKANSys_api.Models.Entities.Action> Actions { get; set; }
+  
+    public DbSet<TypeAction> TypeActions { get; set; }
+    public DbSet<StatusAction> StatusActions { get; set; }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -280,6 +284,28 @@ public class ApplicationDbContext : DbContext
           .WithMany()
           .HasForeignKey(c => c.ProcessusID)
           .HasConstraintName("FK_Check_list_Processus");
+
+
+
+
+        modelBuilder.Entity<ITKANSys_api.Models.Entities.Action>()
+          .HasOne(c => c.user)
+          .WithMany()
+          .HasForeignKey(c => c.UserId)
+          .HasConstraintName("FK_Action_User");
+
+        modelBuilder.Entity<ITKANSys_api.Models.Entities.Action>()
+         .HasOne(c => c.typeAction)
+         .WithMany()
+         .HasForeignKey(c => c.typeActionId)
+         .HasConstraintName("FK_Action_typeAction");
+
+
+        modelBuilder.Entity<ITKANSys_api.Models.Entities.Action>()
+         .HasOne(c => c.statusAction)
+         .WithMany()
+         .HasForeignKey(c => c.statusActionId)
+         .HasConstraintName("FK_Action_statusAction");
 
 
 
