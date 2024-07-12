@@ -103,6 +103,7 @@ builder.Services.AddScoped<ITypeCheckListAuditService, TypeCheckListAuditService
 builder.Services.AddScoped<IProgrammeAudit, ProgrammeAuditService>();
 builder.Services.AddScoped<ITypeConstatServicecs, TypeConstatService>();
 builder.Services.AddScoped<IActionService, ActionService>();
+builder.Services.AddScoped<IPreuve, PreuveService>();
 
 
 builder.Services.AddScoped<ITypeAuditService, TypeAuditService>();

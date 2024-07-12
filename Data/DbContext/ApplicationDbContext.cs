@@ -44,7 +44,7 @@ public class ApplicationDbContext : DbContext
   
     public DbSet<TypeAction> TypeActions { get; set; }
     public DbSet<StatusAction> StatusActions { get; set; }
-
+    public DbSet<Preuve> Preuves { get; set; }
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -307,6 +307,13 @@ public class ApplicationDbContext : DbContext
          .HasForeignKey(c => c.statusActionId)
          .HasConstraintName("FK_Action_statusAction");
 
+
+
+        modelBuilder.Entity<Preuve>()
+         .HasOne(c => c.Action)
+         .WithMany()
+         .HasForeignKey(c => c.ActionId)
+         .HasConstraintName("FK_Preuve_Action");
 
 
 
