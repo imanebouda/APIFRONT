@@ -34,6 +34,10 @@ namespace ITKANSys_api.Models
         [ForeignKey("IdRole")]
         public Role UserRole { get; set; }
 
-       
+        public ICollection<ComiteeReclamation> ComiteeReclamations { get; set; }
+
+
+
+
     }
 }

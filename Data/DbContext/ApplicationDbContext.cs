@@ -41,13 +41,29 @@ public class ApplicationDbContext : DbContext
    
     public DbSet<Check_list> Check_lists { get; set; }
 
+    public DbSet<Reclamation> Reclamations { get; set; }
+    public DbSet<Reclamant> Reclamants { get; set; }
+    public DbSet<HistoryReclamation> HistoryReclamation { get; set; }
+    public DbSet<ComiteeReclamation> ComiteeReclamation { get; set; }
+
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<PermissionRole>()
+        modelBuilder.Entity<User>()
+           .HasOne(u => u.UserRole)
+           .WithMany()
+           .HasForeignKey(u => u.IdRole);
+
+        modelBuilder.Entity<ComiteeReclamation>()
+            .HasOne(c => c.ConcernedUser)
+            .WithMany()
+            .HasForeignKey(c => c.ConcernedID);
+    
+
+    modelBuilder.Entity<PermissionRole>()
             .HasOne(pr => pr.Permissions)
             .WithMany()
             .HasForeignKey(pr => pr.PermissionId)
@@ -61,6 +77,28 @@ public class ApplicationDbContext : DbContext
             .OnDelete(DeleteBehavior.ClientSetNull)
             .HasConstraintName("FK_PermissionRoles_Roles_RoleId");
 
+    
+        modelBuilder.Entity<HistoryReclamation>()
+            .HasOne(hr => hr.Reclamation)
+            .WithMany()
+            .HasForeignKey(hr => hr.ReclamationID)
+            .OnDelete(DeleteBehavior.Cascade); // Configurer la suppression en cascade
+
+        modelBuilder.Entity<ComiteeReclamation>()
+         .HasOne(cr => cr.ConcernedUser)
+         .WithMany(u => u.ComiteeReclamations)
+         .HasForeignKey(cr => cr.ConcernedID)
+         .OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ComiteeReclamation>()
+           .HasOne(cr => cr.Reclamation)
+           .WithMany(r => r.ComiteeReclamation)
+           .HasForeignKey(cr => cr.ReclamationID)
+           .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<User>()
+          .HasMany(u => u.ComiteeReclamations)
+          .WithOne(cr => cr.ConcernedUser)
+          .HasForeignKey(cr => cr.ConcernedID);
         modelBuilder.Entity<User>()
             .HasOne(u => u.UserRole)
             .WithMany()

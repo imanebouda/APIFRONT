@@ -15,6 +15,11 @@ using System.Text;
 using AutoMapper;
 using ITKANSys_api.Utility.Config;
 using ITKANSys_api.Utility.ApiResponse;
+using System.Text.Json.Serialization;
+
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +45,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
+/*builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+    options.JsonSerializerOptions.WriteIndented = true;
+});*/
 
 
 
@@ -103,6 +113,18 @@ builder.Services.AddScoped<ITypeCheckListAuditService, TypeCheckListAuditService
 builder.Services.AddScoped<IProgrammeAudit, ProgrammeAuditService>();
 builder.Services.AddScoped<ITypeConstatServicecs, TypeConstatService>();
 
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ReclamantService, ReclamantService>();
+builder.Services.AddScoped<ReclamantRepository, ReclamantRepository>();
+builder.Services.AddScoped<IComiteeReclamationRepository, ComiteeReclamationRepository>();
+builder.Services.AddScoped<IComiteeReclamationService, ComiteeReclamationService>(); 
+builder.Services.AddScoped<IHistoryReclamationRepository, HistoryReclamationRepository>();
+builder.Services.AddScoped<IHistoryReclamationService, HistoryReclamationService>();
+builder.Services.AddScoped<IReclamationService, ReclamationService>();
+builder.Services.AddScoped<IReclamationRepository, ReclamationRepository>();
+// Ajoutez d'autres services nécessaires ici...
+
 
 builder.Services.AddScoped<ITypeAuditService, TypeAuditService>();
 /*
@@ -161,6 +183,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+   // app.UseDeveloperExceptionPage();
 }
 
 app.UseHttpsRedirection();
