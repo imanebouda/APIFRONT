@@ -637,12 +637,11 @@
               "Title": "PreuveController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Controllers\\PreuveController.cs",
               "RelativeDocumentMoniker": "Controllers\\PreuveController.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Controllers\\PreuveController.cs*",
-              "RelativeToolTip": "Controllers\\PreuveController.cs*",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Controllers\\PreuveController.cs",
+              "RelativeToolTip": "Controllers\\PreuveController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T11:05:08.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T11:05:08.266Z"
             },
             {
               "$type": "Document",
@@ -650,12 +649,11 @@
               "Title": "PreuveService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Services\\PreuveService.cs",
               "RelativeDocumentMoniker": "Services\\PreuveService.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Services\\PreuveService.cs*",
-              "RelativeToolTip": "Services\\PreuveService.cs*",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Services\\PreuveService.cs",
+              "RelativeToolTip": "Services\\PreuveService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T10:59:36.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T10:59:36.321Z"
             },
             {
               "$type": "Document",
@@ -663,12 +661,11 @@
               "Title": "IPreuve.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Interfaces\\IPreuve.cs",
               "RelativeDocumentMoniker": "Interfaces\\IPreuve.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Interfaces\\IPreuve.cs*",
-              "RelativeToolTip": "Interfaces\\IPreuve.cs*",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Interfaces\\IPreuve.cs",
+              "RelativeToolTip": "Interfaces\\IPreuve.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T10:57:06.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T10:57:06.547Z"
             },
             {
               "$type": "Document",
@@ -676,9 +673,9 @@
               "Title": "Preuve.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Models\\Entities\\Preuve.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Preuve.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Models\\Entities\\Preuve.cs*",
-              "RelativeToolTip": "Models\\Entities\\Preuve.cs*",
-              "ViewState": "AQIAAAoAAAAAAAAAAADwvwwAAAAgAAAA",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Models\\Entities\\Preuve.cs",
+              "RelativeToolTip": "Models\\Entities\\Preuve.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T10:49:59.058Z",
               "EditorCaption": ""
@@ -705,8 +702,7 @@
               "RelativeToolTip": "Services\\ActionService.cs",
               "ViewState": "AQIAAGYAAAAAAAAAAAAmwHoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:42:17.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T08:42:17.426Z"
             },
             {
               "$type": "Document",
@@ -718,8 +714,7 @@
               "RelativeToolTip": "Interfaces\\IActionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:34:13.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T08:34:13.39Z"
             },
             {
               "$type": "Document",
@@ -755,8 +750,7 @@
               "RelativeToolTip": "Models\\Entities\\Action.cs",
               "ViewState": "AQIAABkAAADA//////8jwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T11:44:40.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T11:44:40.739Z"
             },
             {
               "$type": "Document",
@@ -1020,8 +1014,7 @@
               "RelativeToolTip": "Controllers\\PermissionsController.cs",
               "ViewState": "AQIAAPcAAAAAzMzMzMwuwPwAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:06:46.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T15:06:46.515Z"
             },
             {
               "$type": "Document",
@@ -1161,12 +1154,11 @@
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Data\\DbContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\DbContext\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Data\\DbContext\\ApplicationDbContext.cs*",
-              "RelativeToolTip": "Data\\DbContext\\ApplicationDbContext.cs*",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Data\\DbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\DbContext\\ApplicationDbContext.cs",
               "ViewState": "AQIAACUBAAAAMzMzMzMLwDYBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T16:07:19.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T16:07:19.549Z"
             },
             {
               "$type": "Document",
@@ -1318,12 +1310,11 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Users\\admin\\Documents\\Stage Pfe\\version stable\\test\\ITKAN_API-second\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAADoAAAAALzMzMzMLwGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:22:51.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T15:22:51.765Z"
             },
             {
               "$type": "Document",
