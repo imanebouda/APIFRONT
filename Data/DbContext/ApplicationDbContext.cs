@@ -1,4 +1,4 @@
-﻿using ITKANSys_api.Models;
+using ITKANSys_api.Models;
 using ITKANSys_api.Models.Entities;
 using ITKANSys_api.Models.Entities.Param;
 using Microsoft.EntityFrameworkCore;
@@ -38,25 +38,41 @@ public class ApplicationDbContext : DbContext
     public DbSet<TypeAudit> typeAudit { get; set; }
 
     public DbSet<TypeContat> TypeContat { get; set; }
-   
+
     public DbSet<Check_list> Check_lists { get; set; }
     public DbSet<ITKANSys_api.Models.Entities.Action> Actions { get; set; }
-  
+
     public DbSet<TypeAction> TypeActions { get; set; }
     public DbSet<StatusAction> StatusActions { get; set; }
     public DbSet<Preuve> Preuves { get; set; }
+    public DbSet<Reclamation> Reclamations { get; set; }
+    public DbSet<Reclamant> Reclamants { get; set; }
+    public DbSet<HistoryReclamation> HistoryReclamation { get; set; }
+    public DbSet<ComiteeReclamation> ComiteeReclamation { get; set; }
+
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<PermissionRole>()
-            .HasOne(pr => pr.Permissions)
+        modelBuilder.Entity<User>()
+           .HasOne(u => u.UserRole)
+           .WithMany()
+           .HasForeignKey(u => u.IdRole);
+
+        modelBuilder.Entity<ComiteeReclamation>()
+            .HasOne(c => c.ConcernedUser)
             .WithMany()
-            .HasForeignKey(pr => pr.PermissionId)
-            .OnDelete(DeleteBehavior.ClientSetNull)
-            .HasConstraintName("FK_PermissionRoles_Permissions_PermissionId");
+            .HasForeignKey(c => c.ConcernedID);
+
+
+        modelBuilder.Entity<PermissionRole>()
+                .HasOne(pr => pr.Permissions)
+                .WithMany()
+                .HasForeignKey(pr => pr.PermissionId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_PermissionRoles_Permissions_PermissionId");
 
         modelBuilder.Entity<PermissionRole>()
             .HasOne(pr => pr.Roles)
@@ -65,6 +81,28 @@ public class ApplicationDbContext : DbContext
             .OnDelete(DeleteBehavior.ClientSetNull)
             .HasConstraintName("FK_PermissionRoles_Roles_RoleId");
 
+
+        modelBuilder.Entity<HistoryReclamation>()
+            .HasOne(hr => hr.Reclamation)
+            .WithMany()
+            .HasForeignKey(hr => hr.ReclamationID)
+            .OnDelete(DeleteBehavior.Cascade); // Configurer la suppression en cascade
+
+        modelBuilder.Entity<ComiteeReclamation>()
+         .HasOne(cr => cr.ConcernedUser)
+         .WithMany(u => u.ComiteeReclamations)
+         .HasForeignKey(cr => cr.ConcernedID)
+         .OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ComiteeReclamation>()
+           .HasOne(cr => cr.Reclamation)
+           .WithMany(r => r.ComiteeReclamation)
+           .HasForeignKey(cr => cr.ReclamationID)
+           .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<User>()
+          .HasMany(u => u.ComiteeReclamations)
+          .WithOne(cr => cr.ConcernedUser)
+          .HasForeignKey(cr => cr.ConcernedID);
         modelBuilder.Entity<User>()
             .HasOne(u => u.UserRole)
             .WithMany()
@@ -202,16 +240,16 @@ public class ApplicationDbContext : DbContext
 
         //
 
-      /*  modelBuilder.Entity<Audit>()
-       .HasMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
-       .WithOne(c => c.Audit) // Un Constat appartient à un Audit
-       .HasForeignKey(c => c.AuditID) // Clé étrangère dans la classe Constat
-       .OnDelete(DeleteBehavior.Cascade); // Cascade Delete pour supprimer les Constats associés lorsqu'un Audit est supprimé
+        /*  modelBuilder.Entity<Audit>()
+         .HasMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
+         .WithOne(c => c.Audit) // Un Constat appartient à un Audit
+         .HasForeignKey(c => c.AuditID) // Clé étrangère dans la classe Constat
+         .OnDelete(DeleteBehavior.Cascade); // Cascade Delete pour supprimer les Constats associés lorsqu'un Audit est supprimé
 
-        modelBuilder.Entity<Constat>()
-            .HasOne(c => c.Audit) // Un Constat appartient à un Audit
-            .WithMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
-            .HasForeignKey(c => c.AuditID); // Clé étrangère dans la classe Constat*/
+          modelBuilder.Entity<Constat>()
+              .HasOne(c => c.Audit) // Un Constat appartient à un Audit
+              .WithMany(a => a.Constats) // Un Audit peut avoir plusieurs Constats
+              .HasForeignKey(c => c.AuditID); // Clé étrangère dans la classe Constat*/
 
 
 
@@ -239,7 +277,7 @@ public class ApplicationDbContext : DbContext
              .WithMany()
              .HasForeignKey(c => c.typeAuditId)
              .HasConstraintName("FK_Audits_TypeAudit");
-      
+
         modelBuilder.Entity<Audit>()
               .HasOne(c => c.Auditor)
               .WithMany()
@@ -265,7 +303,7 @@ public class ApplicationDbContext : DbContext
 
 
 
-       
+
         modelBuilder.Entity<Check_list>()
             .HasOne(c => c.typeAudit)
             .WithMany()
@@ -284,6 +322,7 @@ public class ApplicationDbContext : DbContext
           .WithMany()
           .HasForeignKey(c => c.ProcessusID)
           .HasConstraintName("FK_Check_list_Processus");
+
 
 
 
@@ -314,6 +353,8 @@ public class ApplicationDbContext : DbContext
          .WithMany()
          .HasForeignKey(c => c.ActionId)
          .HasConstraintName("FK_Preuve_Action");
+
+
 
 
 

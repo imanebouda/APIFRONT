@@ -15,6 +15,11 @@ using System.Text;
 using AutoMapper;
 using ITKANSys_api.Utility.Config;
 using ITKANSys_api.Utility.ApiResponse;
+using System.Text.Json.Serialization;
+
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +45,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
+/*builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+    options.JsonSerializerOptions.WriteIndented = true;
+});*/
 
 
 
@@ -83,27 +93,37 @@ builder.Services.AddScoped<IMQService, MQService>();
 builder.Services.AddScoped<IIndicateurService, IndicateurService>();
 builder.Services.AddScoped<IResultatsIndicateurService, ResultatsIndicateurService>();
 
-builder.Services.AddScoped<IRolesServices,RolesServices>();
+builder.Services.AddScoped<IRolesServices, RolesServices>();
 builder.Services.AddScoped<IPermissionsService, PermissionsService>();
 builder.Services.AddScoped<IProcessusServices, ProcessusService>();
 
-builder.Services.AddScoped<ITypeOrganismeService,TypeOrganismeService>();
+builder.Services.AddScoped<ITypeOrganismeService, TypeOrganismeService>();
 builder.Services.AddScoped<IOrganismeService, OrganismeService>();
 builder.Services.AddScoped<IParametrageService, ParametrageService>();
 builder.Services.AddScoped<ICategorieService, CategorieService>();
 builder.Services.AddScoped<ISiteService, SiteService>();
 builder.Services.AddScoped<ISMQService, SMQService>();
-builder.Services.AddScoped<IAuditService,AuditService >();
+builder.Services.AddScoped<IAuditService, AuditService>();
 builder.Services.AddScoped<IConstatService, ConstatService>();
 builder.Services.AddScoped<formatObject>();
 builder.Services.AddScoped<IChecklistAuditService, CheckListAuditService>();
-builder.Services.AddScoped<ICheck_listService,Check_listServices>();
+builder.Services.AddScoped<ICheck_listService, Check_listServices>();
 builder.Services.AddScoped<ITypeCheckListAuditService, TypeCheckListAuditService>();
 
 builder.Services.AddScoped<IProgrammeAudit, ProgrammeAuditService>();
 builder.Services.AddScoped<ITypeConstatServicecs, TypeConstatService>();
-builder.Services.AddScoped<IActionService, ActionService>();
-builder.Services.AddScoped<IPreuve, PreuveService>();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ReclamantService, ReclamantService>();
+builder.Services.AddScoped<ReclamantRepository, ReclamantRepository>();
+builder.Services.AddScoped<IComiteeReclamationRepository, ComiteeReclamationRepository>();
+builder.Services.AddScoped<IComiteeReclamationService, ComiteeReclamationService>();
+builder.Services.AddScoped<IHistoryReclamationRepository, HistoryReclamationRepository>();
+builder.Services.AddScoped<IHistoryReclamationService, HistoryReclamationService>();
+builder.Services.AddScoped<IReclamationService, ReclamationService>();
+builder.Services.AddScoped<IReclamationRepository, ReclamationRepository>();
+// Ajoutez d'autres services nécessaires ici...
 
 
 builder.Services.AddScoped<ITypeAuditService, TypeAuditService>();
@@ -163,6 +183,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    // app.UseDeveloperExceptionPage();
 }
 
 app.UseHttpsRedirection();

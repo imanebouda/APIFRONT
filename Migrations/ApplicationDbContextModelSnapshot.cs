@@ -36,6 +36,9 @@ namespace ITKANSys_api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.Property<string>("description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -44,13 +47,110 @@ namespace ITKANSys_api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("typeAudit")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("typeAuditId")
+                        .HasColumnType("int");
 
                     b.HasKey("ID");
 
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("typeAuditId");
+
                     b.ToTable("Audit");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.CheckListAudit", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("CheckListAuditId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("niveau")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("typechecklist_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("CheckListAuditId");
+
+                    b.HasIndex("typechecklist_id");
+
+                    b.ToTable("CheckListAudits");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.Check_list", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProcessusID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SMQ_ID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("typeAuditId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProcessusID");
+
+                    b.HasIndex("SMQ_ID");
+
+                    b.HasIndex("typeAuditId");
+
+                    b.ToTable("Check_lists");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.ComiteeReclamation", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("ConcernedID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreationBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ReclamationID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("ComiteeReclamations");
                 });
 
             modelBuilder.Entity("ITKANSys_api.Models.Entities.Constat", b =>
@@ -61,22 +161,50 @@ namespace ITKANSys_api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("AuditID")
+                    b.Property<int>("ChecklistId")
                         .HasColumnType("int");
 
-                    b.Property<string>("EcartTitle")
+                    b.Property<string>("constat")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("EcartType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("typeConstatId")
+                        .HasColumnType("int");
 
                     b.HasKey("ID");
 
-                    b.HasIndex("AuditID");
+                    b.HasIndex("ChecklistId");
+
+                    b.HasIndex("typeConstatId");
 
                     b.ToTable("Constat");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.HistoryReclamation", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Commentaire")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreationBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ReclamationID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("HistoryReclamations");
                 });
 
             modelBuilder.Entity("ITKANSys_api.Models.Entities.Indicateurs", b =>
@@ -471,6 +599,121 @@ namespace ITKANSys_api.Migrations
                     b.ToTable("ProcesObjectifs");
                 });
 
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.ProgrammeAudit", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("AuditID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DateAudit")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("AuditID");
+
+                    b.ToTable("ProgrammeAudit");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.Reclamant", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Adresse")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreationBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Mobile")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nom")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Prénom")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Ville")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Reclamants");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.Reclamation", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Analyse")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreationBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Détail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Objet")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ResponsableID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RéclamantID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Reclamations");
+                });
+
             modelBuilder.Entity("ITKANSys_api.Models.Entities.ResultatsIndicateurs", b =>
                 {
                     b.Property<int>("ID")
@@ -506,6 +749,57 @@ namespace ITKANSys_api.Migrations
                     b.HasIndex("IndicateurID");
 
                     b.ToTable("ResultatsIndicateurs");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.TypeAudit", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("typeAudit");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.TypeCheckListAudit", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("TypeCheckList");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.TypeContat", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("TypeContat");
                 });
 
             modelBuilder.Entity("ITKANSys_api.Models.PQ", b =>
@@ -784,9 +1078,6 @@ namespace ITKANSys_api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("AuditID")
-                        .HasColumnType("int");
-
                     b.Property<int>("Categorie_ID")
                         .HasColumnType("int");
 
@@ -831,8 +1122,6 @@ namespace ITKANSys_api.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("ID");
-
-                    b.HasIndex("AuditID");
 
                     b.HasIndex("Categorie_ID");
 
@@ -882,6 +1171,31 @@ namespace ITKANSys_api.Migrations
                     b.ToTable("Roles");
                 });
 
+            modelBuilder.Entity("ITKANSys_api.Models.SiteAudit", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("city")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("SiteAudits");
+                });
+
             modelBuilder.Entity("ITKANSys_api.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -928,15 +1242,119 @@ namespace ITKANSys_api.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("ITKANSys_api.Models.UserChoice", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CheckListAuditId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Choice")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CheckListAuditId");
+
+                    b.ToTable("UserChoices");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.Audit", b =>
+                {
+                    b.HasOne("ITKANSys_api.Models.User", "Auditor")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Audit_Users");
+
+                    b.HasOne("ITKANSys_api.Models.Entities.TypeAudit", "typeAudit")
+                        .WithMany()
+                        .HasForeignKey("typeAuditId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Audits_TypeAudit");
+
+                    b.Navigation("Auditor");
+
+                    b.Navigation("typeAudit");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.CheckListAudit", b =>
+                {
+                    b.HasOne("ITKANSys_api.Models.Entities.Check_list", "CheckList")
+                        .WithMany()
+                        .HasForeignKey("CheckListAuditId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_CheckListAudits_checklist");
+
+                    b.HasOne("ITKANSys_api.Models.Entities.TypeCheckListAudit", "TypeCheckListAudit")
+                        .WithMany()
+                        .HasForeignKey("typechecklist_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_CheckListAudits_TypeCheckList");
+
+                    b.Navigation("CheckList");
+
+                    b.Navigation("TypeCheckListAudit");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.Check_list", b =>
+                {
+                    b.HasOne("ITKANSys_api.Models.Processus", "Processus")
+                        .WithMany()
+                        .HasForeignKey("ProcessusID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Check_list_Processus");
+
+                    b.HasOne("ITKANSys_api.Models.Entities.Param.SMQ", "SMQ")
+                        .WithMany()
+                        .HasForeignKey("SMQ_ID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Check_list_SMQ");
+
+                    b.HasOne("ITKANSys_api.Models.Entities.TypeAudit", "typeAudit")
+                        .WithMany()
+                        .HasForeignKey("typeAuditId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Check_list_TypeAudit");
+
+                    b.Navigation("Processus");
+
+                    b.Navigation("SMQ");
+
+                    b.Navigation("typeAudit");
+                });
+
             modelBuilder.Entity("ITKANSys_api.Models.Entities.Constat", b =>
                 {
-                    b.HasOne("ITKANSys_api.Models.Entities.Audit", "Audit")
-                        .WithMany("Constats")
-                        .HasForeignKey("AuditID")
+                    b.HasOne("ITKANSys_api.Models.Entities.CheckListAudit", "Checklist")
+                        .WithMany()
+                        .HasForeignKey("ChecklistId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .IsRequired()
+                        .HasConstraintName("FK_Constats_Checklist");
 
-                    b.Navigation("Audit");
+                    b.HasOne("ITKANSys_api.Models.Entities.TypeContat", "typeConstat")
+                        .WithMany()
+                        .HasForeignKey("typeConstatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Constats_TypeConstat");
+
+                    b.Navigation("Checklist");
+
+                    b.Navigation("typeConstat");
                 });
 
             modelBuilder.Entity("ITKANSys_api.Models.Entities.Indicateurs", b =>
@@ -1003,6 +1421,17 @@ namespace ITKANSys_api.Migrations
                         .HasConstraintName("FK_ProcesObjectifs_ProcessusID");
 
                     b.Navigation("Processus");
+                });
+
+            modelBuilder.Entity("ITKANSys_api.Models.Entities.ProgrammeAudit", b =>
+                {
+                    b.HasOne("ITKANSys_api.Models.Entities.Audit", "Audit")
+                        .WithMany()
+                        .HasForeignKey("AuditID")
+                        .IsRequired()
+                        .HasConstraintName("FK_ProgrammeAudit_AuditID");
+
+                    b.Navigation("Audit");
                 });
 
             modelBuilder.Entity("ITKANSys_api.Models.Entities.ResultatsIndicateurs", b =>
@@ -1096,12 +1525,6 @@ namespace ITKANSys_api.Migrations
 
             modelBuilder.Entity("ITKANSys_api.Models.Processus", b =>
                 {
-                    b.HasOne("ITKANSys_api.Models.Entities.Audit", "Audit")
-                        .WithMany("Processus")
-                        .HasForeignKey("AuditID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("ITKANSys_api.Models.Entities.Param.Categories", "Categories")
                         .WithMany()
                         .HasForeignKey("Categorie_ID")
@@ -1131,8 +1554,6 @@ namespace ITKANSys_api.Migrations
                         .HasForeignKey("USER_ID")
                         .IsRequired()
                         .HasConstraintName("FK_Processus_USER_ID");
-
-                    b.Navigation("Audit");
 
                     b.Navigation("Categories");
 
@@ -1165,11 +1586,15 @@ namespace ITKANSys_api.Migrations
                     b.Navigation("UserRole");
                 });
 
-            modelBuilder.Entity("ITKANSys_api.Models.Entities.Audit", b =>
+            modelBuilder.Entity("ITKANSys_api.Models.UserChoice", b =>
                 {
-                    b.Navigation("Constats");
+                    b.HasOne("ITKANSys_api.Models.Entities.CheckListAudit", "CheckListAudit")
+                        .WithMany()
+                        .HasForeignKey("CheckListAuditId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("Processus");
+                    b.Navigation("CheckListAudit");
                 });
 #pragma warning restore 612, 618
         }
